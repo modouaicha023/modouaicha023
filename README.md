@@ -20,7 +20,7 @@ Eternal Businessman💰 🚀<br>FullstackWebDeveloper->level("Junior")<br>
 [![](https://visitcount.itsvg.in/api?id=modouaicha023&label=Profile%20Views&color=11&icon=1&pretty=true)](https://visitcount.itsvg.in)
 
   ## 💰 You can help me by Donating
-  [![PayPal](https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://paypal.me/paypal.me/modouaichadiop) 
+  [![PayPal](https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://paypal.me/modouaichadiop?country.x=SN&locale.x=fr_XC) 
 
   
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
