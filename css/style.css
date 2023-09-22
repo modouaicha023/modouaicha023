@@ -1,53 +1,59 @@
-body{
-    padding: 0;
+/* Begin Fonts Definition  */
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@100;200;300;400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@font-face {
+    font-family: 'Clash Display';
+    src: url('/asset/fonts/ClashDisplay-Variable.ttf');
+}
+
+@font-face {
+    font-family: 'Clash Grotesk';
+    src: url('/asset/fonts/ClashGrotesk-Variable.ttf');
+}
+
+/* End Fonts Definition  */
+
+/* Reset Proprite */
+* {
     margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    background-color: antiquewhite;
+}
+
+/* End Reset Proprite */
+
+/* ---------------Begin sizing box------------------------  */
+
+body {
+    width: 100vw;
     height: 100vh;
-    background-color: rgb(169, 134, 173);
-    color: rgb(0, 0, 0);
-    font-family: 'Josefin Slab', serif;
-}
+    background-color: rgb(255, 255, 255);
 
-.container{
-    text-align: center;
-    width: 400px;
-    position: relative;
-}
-
-.counter{
-    font-size: 40px;
-}
-.loading-bar-back{
-    position: absolute;
-    height: 8px;
-    background-color: rgb(250, 250, 250);
-    width: 100%;
-    border-radius: 5px;
-    border: none;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    -o-border-radius: 5px;
-}
-.loading-bar-front{
-    position: absolute;
-    height: 8px;
-    background-color:  rgba(68, 6, 104, 0.87);
-    width: 0%;
-    border-radius: 5px;
-    border: none;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    -o-border-radius: 5px;
-}
-.social-icon{
-    padding: 0;
-    margin: 0;
-    width: 50%;
-}
-.social-media{
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
+.containerGlobal {
+    width: 95%;
+    height: 95%;
+    background-color: white;
+    border: 3px solid black;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.column {
+    width: 45%;
+    height: 95%;
+    border: 3px solid black;
+    background-color: white;
+}
+
+/* --------------- End Begin sizing box------------------------  */
