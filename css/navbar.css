@@ -1,0 +1,164 @@
+/* Navbar */
+#home div {
+    font-size: 1.2rem;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* border: 3px solid black; */
+    height: 100%;
+    grid-area: nav;
+    padding: 5px;
+}
+
+nav a {
+    color: rgb(0, 0, 0);
+    /* border: 1px solid black; */
+    text-decoration: none;
+    padding: 5px;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+
+
+.slash {
+    font-size: 1.3rem;
+    font-weight: 300;
+    color: rgb(0, 0, 0);
+    animation: clignote 1s infinite ease-in-out;
+}
+
+@keyframes clignote {
+    from {
+        visibility: hidden;
+        color: rgb(0, 0, 0);
+    }
+
+    70% {
+        visibility: hidden;
+    }
+
+    to {
+        color: rgb(0, 0, 0);
+        visibility: visible;
+
+    }
+}
+
+.menu {
+    visibility: hidden;
+}
+
+@media only screen and (max-width: 660px) {
+    #header {
+        display: grid;
+        grid-template-columns: 10fr 1fr;
+        grid-template-rows: 1fr;
+        grid-template-areas:
+            "logo menu";
+    }
+
+    nav {
+        display: none;
+    }
+
+    .menu {
+        visibility: visible;
+        grid-area: menu;
+    }
+
+}
+
+/* End Navbar */
+
+
+
+
+#home {
+    display: flex;
+    flex-direction: row;
+}
+
+.home1 {
+    visibility: hidden;
+    animation: whritre1 1.3s infinite ease-in-out;
+}
+
+.home2 {
+    visibility: hidden;
+    animation: whritre2 1.3s infinite ease-in-out;
+}
+
+.home3 {
+    visibility: hidden;
+    animation: whritre3 1.3s infinite ease-in-out;
+}
+
+.home4 {
+    visibility: hidden;
+    animation: whritre4 1.3s infinite ease-in-out;
+}
+
+
+@keyframes whritre1 {
+    from {
+        visibility: hidden;
+    }
+
+    20% {
+        visibility: hidden;
+    }
+
+    to {
+        visibility: visible;
+    }
+
+}
+
+@keyframes whritre2 {
+    from {
+        visibility: hidden;
+    }
+
+    40% {
+        visibility: hidden;
+    }
+
+    to {
+        visibility: visible;
+    }
+
+}
+
+@keyframes whritre3 {
+    from {
+        visibility: hidden;
+    }
+
+    60% {
+        visibility: hidden;
+    }
+
+    to {
+        visibility: visible;
+    }
+
+}
+
+@keyframes whritre4 {
+    from {
+        visibility: hidden;
+    }
+
+    80% {
+        visibility: hidden;
+    }
+
+    to {
+        visibility: visible;
+    }
+
+}

@@ -1,22 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="./css/style.css">
-        <link rel="shortcut icon" href="./asset/images/Logo.png">
 
-        <title>Mo Loading</title>
-    </head>
-    <body>
-        <div class="containerGlobal">
-            <div class="column" id="column1"></div>
-            <div class="column" id="column2 "></div>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/navbar.css">
+    <link rel="shortcut icon" href="./asset/images/Logo.png">
+    <title>Mo Loading</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="outer-grid" id="border-left"></div>
+
+        <div class="outer-grid inner-grid" id="main-content">
+            <div class="content-block-item" id="content-margin1"></div>
+            <header class="content-block-item" id="header">
+                <a href="#">
+                    <div class="logoContainter">
+                        <img src="asset/images/Logo.png" width="32" height="32" alt="">
+                        <p id="textLogo">MODOU AICHA</p>
+                    </div>
+                </a>
+                <nav class="navbar">
+                    <a href="#" id="home">
+                        <span class="slash">/</span>
+                        <div class="home1">h</div>
+                        <div class="home2">o</div>
+                        <div class="home3">m</div>
+                        <div class="home4">e</div>
+                    </a>
+                    <a href="#"><span class="slash">/</span>about</a>
+                    <a href="#"><span class="slash">/</span>blogs</a>
+                    <a href="#"><span class="slash">/</span>projects</a>
+                    <a href="#"><span class="slash">/</span>contact</a>
+                </nav>
+                <div class="menu">
+                    <a href="#"> <img src="./asset/images/menu.png" alt="menu button" width="32px" height="32px"></a>
+                </div>
+            </header>
+            <div class="content-block-item" id="content-space1"></div>
+            <div class="content-block-item" id="main1"></div>
+            <div class="content-block-item" id="content-space2"></div>
+            <div class="content-block-item" id="main2"></div>
+            <div class="content-block-item" id="content-margin2"></div>
         </div>
 
-        <script src="./js/index.js">
+        <div class="outer-grid" id="border-right"></div>
+    </div>
+</body>
 
-    </script>
-    </body>
 </html>
+<!-- <header class="containerGlobal">
+    <div class="column" id="column1">
+        <div class="logoContainter">
+            <img src="asset/images/Logo.png" width="32" height="32" alt="">
+            <p id="textLogo">MODOU AICHA</p>
+        </div>
+    </div>
+    <nav class="column" id="column2 "></nav>
+</header> -->

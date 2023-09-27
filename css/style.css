@@ -21,39 +21,161 @@
     box-sizing: border-box;
     font-size: 16px;
     font-family: 'Poppins', sans-serif;
-    background-color: antiquewhite;
+    /* background-color: rgb(255, 255, 255); */
 }
 
 /* End Reset Proprite */
+/* ---------------------------------------------------------------------------- */
 
-/* ---------------Begin sizing box------------------------  */
+/* Outer Grid  */
 
 body {
     width: 100vw;
     height: 100vh;
-    background-color: rgb(255, 255, 255);
-
     display: flex;
     align-items: center;
     justify-content: center;
+    /* background-image: url(/asset/images/865f68effd27bbebbf6c1aa6af13ec7a.jpeg); */
+    /* background-position: center; */
+    /* background-size: cover; */
 }
 
-.containerGlobal {
+a {
+    text-decoration: none;
+    outline: none;
+    color: black;
+}
+
+a:active {
+    color: black;
+}
+
+.container {
     width: 95%;
     height: 95%;
-    background-color: white;
     border: 3px solid black;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 32px 1fr 32px;
+    grid-template-areas:
+        "border-left main-content border-right";
+    overflow: auto;
+}
 
-    display: flex;
+.outer-grid {
+    width: 100%;
+    height: 100%;
+}
+
+#border-left {
+    grid-area: border-left;
+}
+
+#main-content {
+    grid-area: main-content;
+    /* border-left: 3px solid black;
+    border-right: 3px solid black; */
+}
+
+#border-right {
+    grid-area: border-right;
+}
+
+/* End Outer Grid  */
+
+/* ---------------------------------------------------------------------------- */
+
+
+/* Inner Grid */
+.inner-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 32px 54px 32px 1.5fr 32px 1fr 32px;
+    grid-template-areas:
+        "content-margin1"
+        "header"
+        "content-space1"
+        "main1"
+        "content-space2"
+        "main2"
+        "content-margin2";
+}
+
+.content-block-item {
+    width: 100%;
+    height: 100%;
+}
+
+#content-margin1 {
+    grid-area: content-margin1;
+    /* background-color: aqua; */
+}
+
+#header {
+    grid-area: header;
+    background: rgba(255, 255, 255, .1);
+    /* border: 3px solid black; */
+
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+        "logo nav";
     align-items: center;
-    justify-content: space-evenly;
 }
 
-.column {
-    width: 45%;
-    height: 95%;
-    border: 3px solid black;
-    background-color: white;
+#content-space1 {
+    grid-area: content-space1;
+    /* background-color: crimson; */
 }
+
+
+#main1 {
+    grid-area: main1;
+    background-color: rgb(188, 240, 216);
+    border: 3px solid black;
+
+}
+
+#content-space2 {
+    grid-area: content-space2;
+}
+
+#main2 {
+    grid-area: main2;
+    background-color: rgb(253, 251, 108);
+    border: 3px solid black;
+
+
+}
+
+#content-margin2 {
+    grid-area: content-margin2;
+}
+
+/* End Inner Grid */
+
+
+
+
 
 /* --------------- End Begin sizing box------------------------  */
+
+/* TEXT AND LOGO */
+.logoContainter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    height: fit-content;
+    gap: 10px;
+    grid-area: logo;
+}
+
+#textLogo {
+    font-family: 'Clash Display';
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+/* END TEXT AND LOGO */
