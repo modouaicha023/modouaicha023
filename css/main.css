@@ -1,29 +1,43 @@
-#main1,#main2 {
+main {
+    border: 3px solid black;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    flex-direction: column;
+
 }
 
-#main1 p,#main2 p {
-    font-size: 3rem;
+section {
+    height: 100vh;
+    padding: 32px;
+}
+
+main p {
+    font-size: 4rem;
     font-weight: bold;
     font-family: 'Clash Grotesk';
-    animation: colorAnimation 2s infinite ease-out;
+    text-align: center;
 }
 
-@keyframes colorAnimation {
-    from{
-        color: blueviolet;
-    }
 
-    50%{
-        color: blue;
-    }
-    70%{
-        color: darkred;
-    }
-    to{
-        color: black;
-    }
-    
+#main1 {
+    background-color: rgb(188, 240, 216);
+    display: flex;
+    align-items: center;
+}
+
+
+
+#main2 {
+    background-color: rgb(253, 251, 108);
+}
+
+#main3 {
+    background-color: rgb(247, 128, 128);
+}
+
+#main4 {
+    background-color: rgb(170, 155, 250);
+}
+
+#main5 {
+    background-color: rgb(248, 166, 221);
 }
