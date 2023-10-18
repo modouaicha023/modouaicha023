@@ -1,24 +1,22 @@
 main {
-    border: 3px solid black;
     display: flex;
     flex-direction: column;
-
 }
 
 section {
     height: 100vh;
-    padding: 32px;
+    padding: 64px;
 }
 
-main p {
-    font-size: 4rem;
-    font-weight: bold;
+main h2 {
+    font-size: 6vw;
+    font-weight: 900;
     font-family: 'Clash Grotesk';
     text-align: center;
 }
 
 
-#main1 {
+#home {
     background-color: rgb(188, 240, 216);
     display: flex;
     align-items: center;
@@ -26,18 +24,30 @@ main p {
 
 
 
-#main2 {
+#about {
     background-color: rgb(253, 251, 108);
+
 }
 
-#main3 {
+#stack {
     background-color: rgb(247, 128, 128);
 }
 
-#main4 {
+#projects {
     background-color: rgb(170, 155, 250);
+
+
+
 }
 
-#main5 {
+#education {
     background-color: rgb(248, 166, 221);
+}
+
+#blog {
+    background-color: rgb(166, 229, 248);
+}
+
+#contact {
+    background-color: rgb(248, 213, 166);
 }

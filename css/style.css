@@ -14,9 +14,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-size: 16px;
     font-family: 'Poppins', sans-serif;
-    color: rgb(32, 32, 32);
     scroll-behavior: smooth;
 }
 
@@ -25,6 +23,8 @@
 body {
     display: flex;
     flex-direction: column;
-    background-color: thistle;
+    background-color: rgb(32, 32, 32);
+    font-size: 16px;
+    color: rgb(32, 32, 32);
 
 }

@@ -7,3 +7,8 @@ header {
     padding: 32px;
     position: fixed;
 }
+
+#avatar,#menu-img {
+    width: 32px;
+    height: 32px;
+}
