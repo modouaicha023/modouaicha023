@@ -1,0 +1,14 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100vw;
+    height: 64px;
+    padding: 32px;
+    position: fixed;
+}
+
+#avatar,#menu-img {
+    width: 32px;
+    height: 32px;
+}
