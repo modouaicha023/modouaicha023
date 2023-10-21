@@ -14,7 +14,7 @@ Hi ! 👋 I'm a full stack developer who dances between frontend and backend to 
     <img src="https://skillicons.dev/icons?i=js,ts,html,css" />
        <br/> 
     <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=react,angular,django,flutter" />
+    <img src="https://skillicons.dev/icons?i=react,nextjs,django,flutter" />
       <br/> 
       <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=bootstrap,mui,tailwind,git" />
