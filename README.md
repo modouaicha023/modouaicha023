@@ -13,13 +13,13 @@ Hi there ! 👋 I'm a passionate Frontend Developer with a keen eye for beautifu
     <img src="https://github.com/abbasbayat0/abbasbayat0/assets/120355368/7cede4fe-7088-4b76-9e28-f9e42dac3205">
 <p>
     <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=js,ts,html,css" />
+    <img src="https://skillicons.dev/icons?i=html,css" />
        <br/> 
     <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=react,nextjs,django,flutter" />
+    <img src="https://skillicons.dev/icons?i=react,nextjs,spring,express" />
       <br/> 
       <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=bootstrap,mui,tailwind,git" />
+    <img src="https://skillicons.dev/icons?i=bootstrap,tailwind,git,github" />
        <br/> 
     <img src="https://github.com/abbasbayat0/abbasbayat0/assets/120355368/7cede4fe-7088-4b76-9e28-f9e42dac3205">
        
@@ -27,7 +27,11 @@ Hi there ! 👋 I'm a passionate Frontend Developer with a keen eye for beautifu
      
 <p>
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=java,python,c,mysql" />
+    <img src="https://skillicons.dev/icons?i=js,java,python,ts" />
+  </a>
+    <img src="https://github.com/abbasbayat0/abbasbayat0/assets/120355368/7cede4fe-7088-4b76-9e28-f9e42dac3205">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=mysql,mongodb" />
   </a>
     <img src="https://github.com/abbasbayat0/abbasbayat0/assets/120355368/7cede4fe-7088-4b76-9e28-f9e42dac3205">
    <a href="https://skillicons.dev">
