@@ -1,9 +1,3 @@
-<style>
-  .border-radius: 10px; {
-    border-radius: 10px; 
-  }
-</style>
-
 # <img height="60" width="60" src="https://github.com/modouaicha023/modouaicha023/blob/main/asset/images/ezgif.com-optimize.gif" /> Creative Idea and Cool Stuff
 
 <div align="center">
