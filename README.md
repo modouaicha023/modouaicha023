@@ -1,5 +1,5 @@
 <style>
-  .divArrondi {
+  .border-radius: 10px; {
     border-radius: 10px; 
   }
 </style>
@@ -14,11 +14,11 @@
 </div>
 <h3>
 Hi there !  I'm a passionate Frontend Developer 
-  <img width="30" class="divArrondi"  src="./asset/images/lineman.gif" />
+  <img width="30" style="border-radius: 15px;"  src="./asset/images/lineman.gif" />
  with a keen eye for beautiful user interfaces. While I primarily specialize in creating stunning frontend experiences 
-   <img width="20" class="divArrondi"  src="./asset/images/dinolove.gif" />
+   <img width="20" style="border-radius: 15px;"  src="./asset/images/dinolove.gif" />
    , I've also been on an exciting journey to learn Java
-    <img width="30" class="divArrondi"  src="./asset/images/coffee.gif" />
+    <img width="30" style="border-radius: 15px;"  src="./asset/images/coffee.gif" />
     for backend development.🌟
 </h3>
 
@@ -27,8 +27,8 @@ Hi there !  I'm a passionate Frontend Developer
 <p>
     <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=html,css" />
-    <img width="50" class="divArrondi"   src="./asset/images/ohh.png" />
-     <img width="50" class="divArrondi"   src="./asset/images/hein.png" />
+    <img width="50" style="border-radius: 15px;"   src="./asset/images/ohh.png" />
+     <img width="50" style="border-radius: 15px;"   src="./asset/images/hein.png" />
        <br/> 
     <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=react,nextjs,spring,express" />
@@ -46,16 +46,16 @@ Hi there !  I'm a passionate Frontend Developer
   </a>
     <img src="./asset/images/myline.gif">
   <a href="https://skillicons.dev">
-     <img width="50" class="divArrondi"   src="./asset/images/heu.png" />
+     <img width="50" style="border-radius: 15px;"   src="./asset/images/heu.png" />
     <img src="https://skillicons.dev/icons?i=mysql,mongodb" />
-      <img width="50" class="divArrondi"   src="./asset/images/euhh.jpg" />
+      <img width="50" style="border-radius: 15px;"   src="./asset/images/euhh.jpg" />
   </a>
     <img src="./asset/images/myline.gif">
    <a href="https://skillicons.dev">
-    <img width="50" height="50" class="divArrondi"   src="./asset/images/channels4_profile.jpg" />
+    <img width="50" height="50" style="border-radius: 15px;"   src="./asset/images/channels4_profile.jpg" />
     <img src="https://skillicons.dev/icons?i=figma" />
-     <img width="50" height="50" class="divArrondi"   src="./asset/images/hoh.png" />
-      <img width="50" height="50" class="divArrondi"   src="./asset/images/hehehe.jpg" />
+     <img width="50" height="50" style="border-radius: 15px;"   src="./asset/images/hoh.png" />
+      <img width="50" height="50" style="border-radius: 15px;"   src="./asset/images/hehehe.jpg" />
   </a>
     <img src="./asset/images/myline.gif">
 </p>
