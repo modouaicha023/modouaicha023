@@ -14,8 +14,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Clash Grotesk', sans-serif;
     scroll-behavior: smooth;
+    text-transform: lowercase !important;
 }
 
 
@@ -25,6 +26,45 @@ body {
     flex-direction: column;
     background-color: rgb(32, 32, 32);
     font-size: 16px;
-    color: rgb(32, 32, 32);
+    background-color: #ffd5d5;
+
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    /* width: 100vw; */
+
+}
+
+section {
+    padding: 70px 30px;
+    width: 100%;
+
+}
+
+#about {
+    /* background-color: rgb(255, 222, 10); */
+
+}
+
+#projects {
+    background-color: rgb(0, 0, 0);
+    color: yellow;
+}
+
+
+#blog {
+    background-color: rgb(255, 222, 10);
+
+}
+
+#contact {
+    /* background-color: rgb(162, 129, 204); */
+}
+
+footer {
+    background-color: rgb(0, 0, 0);
+    color: azure;
 
 }

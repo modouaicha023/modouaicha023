@@ -1,0 +1,148 @@
+#home {
+    background-color: rgb(255, 222, 10);
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+/* first layer  */
+#div-text-hero-section {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 30px;
+}
+
+#main-img {
+    min-width: 280px;
+    max-width: 700px;
+    border-radius: 10px;
+    box-shadow: 5px 5px rgb(0, 0, 0);
+}
+
+
+
+/* sublayer #div-text-hero-section  */
+#my-name {
+    font-size: clamp(20px, 3vw, 50px);
+    font-weight: 900;
+    font-family: 'Clash Grotesk';
+    text-align: left;
+    color: rgb(20, 20, 20);
+    text-wrap: nowrap;
+
+
+    align-self: flex-start;
+    padding-right: 5px;
+    border-radius: 10px 0px;
+    box-shadow: 1px 1px rgb(0, 0, 0);
+
+}
+
+#my-name:hover {
+    background-color: black;
+    color: yellow;
+    box-shadow: 5px 5px rgb(255, 222, 10);
+
+}
+
+#my-title {
+    font-size: clamp(16px, 2vw, 20px);
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+#text-hero-section {
+    font-size: clamp(10px, 2vw, 16px);
+    font-weight: 500;
+    font-family: 'Clash Grotesk';
+}
+
+.h2-avatar {
+    width: 16px;
+    height: 16px;
+    display: inline;
+}
+
+
+#btn-more {
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    background-color: #ffd5d5;
+    font-size: medium;
+    font-weight: 700;
+
+    padding: 10px;
+    border: 3px solid black;
+    box-shadow: 3px 3px rgb(0, 0, 0);
+}
+
+#btn-more:hover {
+    background-color: black;
+    color: yellow;
+    box-shadow: 5px 5px rgb(255, 222, 10);
+}
+
+
+
+
+
+
+
+
+
+/* media queri */
+
+@media (max-width:630px) {
+    #home {
+        flex-direction: column;
+        align-items: baseline;
+        justify-content: center;
+    }
+
+    #div-text-hero-section {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    #main-img {
+        width: 100% !important;
+        min-width: auto;
+        max-width: auto;
+        border-radius: 10px;
+        box-shadow: 5px 5px rgb(0, 0, 0);
+    }
+
+
+    #my-name {
+        font-family: 'Clash Grotesk';
+        font-size: clamp(20px, 3vw, 50px);
+        align-self: auto;
+        letter-spacing: 2px;
+        font-weight: 900 !important;
+    }
+
+    #my-title {
+        font-size: clamp(14px, 3vw, 20px);
+        text-decoration: underline;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    #text-hero-section {
+        font-size: clamp(16px, 2vw, 20px);
+        text-align: center;
+    }
+
+
+
+}
