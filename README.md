@@ -16,7 +16,7 @@ Hi there !  I'm a passionate Frontend Developer
     for backend development.🌟
 </h3>
 
-<h2>## ⚡ Tech Stack</h2>
+<h2> ⚡ Tech Stack</h2>
     <img src="./asset/images/myline.gif">
 <p>
     <a href="https://skillicons.dev">
@@ -54,13 +54,23 @@ Hi there !  I'm a passionate Frontend Developer
     <img src="./asset/images/myline.gif">
 </p>
 
-<h2>## Look at this Art🤩 - Solo Leveling❤️ </h2>
+<h2> Look at this Art🤩 - Solo Leveling❤️ </h2>
 <p>
   
    <img  src="./asset/images/d9f6b7bed716e54bf9ee96f74da84c14.gif" />
  
  
 </p>
+
+<h2> My GitHub Stats</h2>
+<div align="center">
+  
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=modouaicha023)](https://github.com/anuraghazra/github-readme-stats)
+
+<img src="https://komarev.com/ghpvc/?username=modouaicha023&style=flat-square&color=red" alt=""/>
+
+</div>
+
 
 <h2> Buy me coffe☕😎</h2>
 <a href="https://www.buymeacoffee.com/modouaicha023">
