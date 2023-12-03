@@ -2,9 +2,9 @@
 
 <div align="center">
   
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Major+Mono+Display&weight=800&size=30&duration=3500&pause=3000&color=FA7070&background=3574FF00&center=true&vCenter=true&width=435&lines=Front-Back-End+Developer)](https://git.io/typing-svg) 
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Major+Mono+Display&weight=800&size=30&duration=3500&pause=3000&color=FA7070&background=3574FF00&center=true&vCenter=true&width=435&lines=FrontEnd+Developer)](https://git.io/typing-svg)
 
-  <img  src="./asset/images/mojinwoo.png" />
+  <img  src="./asset/images/mojinwoo.png" width="400"/>
 </div>
 <h3>
 Hi there !  I'm a passionate Frontend Developer 
@@ -18,7 +18,7 @@ Hi there !  I'm a passionate Frontend Developer
 
 <h2> ⚡ Tech Stack</h2>
     <img src="./asset/images/myline.gif">
-<p>
+<p align="center">
     <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=html,css" />
     <img width="50" style="border-radius: 15px;"   src="./asset/images/ohh.png" />
@@ -34,7 +34,7 @@ Hi there !  I'm a passionate Frontend Developer
        
 </p>
      
-<p>
+<p align="center">
   <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=js,java,python,ts" />
   </a>
@@ -54,13 +54,13 @@ Hi there !  I'm a passionate Frontend Developer
     <img src="./asset/images/myline.gif">
 </p>
 
-<h2> Look at this Art🤩 - Solo Leveling❤️ </h2>
-<p>
+<!-- <h2> Look at this Art🤩 - Solo Leveling❤️ </h2> -->
+<div align="center">
   
    <img  src="./asset/images/d9f6b7bed716e54bf9ee96f74da84c14.gif" />
  
  
-</p>
+</div>
 
 <h2> My GitHub Stats</h2>
 <div align="center">
@@ -71,11 +71,14 @@ Hi there !  I'm a passionate Frontend Developer
 
 </div>
 
-
 <h2> Buy me coffe☕😎</h2>
+<img src="https://static.wikia.nocookie.net/solo-leveling/images/3/35/SL_Chibis.png/revision/latest?cb=20200322002106" />
+<div align="center">
+<div align="center"  style="background-color:white;width:fit-content;border-radius:10%; ">
 <a href="https://www.buymeacoffee.com/modouaicha023">
 <img width="100" src="./asset/images/Buy-Me-a-Coffee.svg" />
 </a>
-<img src="https://static.wikia.nocookie.net/solo-leveling/images/3/35/SL_Chibis.png/revision/latest?cb=20200322002106" />
+</div>
+</div>
 <h2> See you soon👀😏👋🏾</h2>
 <img   src="./asset/images/solosimile.jpg" />
