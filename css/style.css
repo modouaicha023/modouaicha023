@@ -10,11 +10,18 @@
     src: url('/asset/fonts/ClashGrotesk-Variable.ttf');
 }
 
+
+@font-face {
+    font-family: 'Satoshi Variable';
+    src: url('/asset/fonts/Satoshi-Variable.ttf');
+    font-weight: bolder;
+}
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Clash Grotesk', sans-serif;
+    font-family: 'Satoshi Variable' !important;
     scroll-behavior: smooth;
     text-transform: lowercase !important;
 }

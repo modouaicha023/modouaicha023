@@ -1,4 +1,4 @@
-# <img height="60" width="60" src="https://github.com/modouaicha023/modouaicha023/blob/main/asset/images/ezgif.com-optimize.gif" /> Creative Idea and Cool Stuff
+# <img height="60" width="60" src="./asset/images/ezgif.com-optimize.gif" /> Creative Idea and Cool Stuff
 
 <div align="center">
   
@@ -36,7 +36,7 @@ Hi there !  I'm a passionate Frontend Developer
      
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=js,java,python,ts" />
+    <img src="https://skillicons.dev/icons?i=js,java,python,ts,php" />
   </a>
     <img src="./asset/images/myline.gif">
   <a href="https://skillicons.dev">
@@ -53,13 +53,8 @@ Hi there !  I'm a passionate Frontend Developer
   </a>
     <img src="./asset/images/myline.gif">
 </p>
-
-<!-- <h2> Look at this Art🤩 - Solo Leveling❤️ </h2> -->
 <div align="center">
-  
    <img  src="./asset/images/d9f6b7bed716e54bf9ee96f74da84c14.gif" />
- 
- 
 </div>
 
 <h2> My GitHub Stats</h2>
@@ -72,13 +67,12 @@ Hi there !  I'm a passionate Frontend Developer
 </div>
 
 <h2> Buy me coffe☕😎</h2>
-<img src="https://static.wikia.nocookie.net/solo-leveling/images/3/35/SL_Chibis.png/revision/latest?cb=20200322002106" />
 <div align="center">
-<div align="center"  style="background-color:white;width:fit-content;border-radius:10%; ">
+<img src="https://static.wikia.nocookie.net/solo-leveling/images/3/35/SL_Chibis.png/revision/latest?cb=20200322002106" />
+
 <a href="https://www.buymeacoffee.com/modouaicha023">
-<img width="100" src="./asset/images/Buy-Me-a-Coffee.svg" />
+<img width="100" src="./asset/images/Buy-Me-a-Coffee.png" style="width:50;border-radius:10px; "/>
 </a>
-</div>
 </div>
 <h2> See you soon👀😏👋🏾</h2>
 <img   src="./asset/images/solosimile.jpg" />

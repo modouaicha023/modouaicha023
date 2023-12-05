@@ -19,8 +19,8 @@
 #main-img {
     min-width: 280px;
     max-width: 700px;
-    border-radius: 10px;
-    box-shadow: 5px 5px rgb(0, 0, 0);
+    height: 200px;
+    border-radius: 10%;
 }
 
 
@@ -92,7 +92,13 @@
 
 
 
-
+.outline {
+    /* color: black; */
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 0.4px;
+    font-size: xx-large;
+    /* -webkit-text-stroke-color: black; */
+}
 
 
 
