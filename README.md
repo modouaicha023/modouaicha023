@@ -69,7 +69,8 @@ Hi there !  I'm a passionate Frontend Developer
 <h2> Buy me coffe☕😎</h2>
 <div align="center">
 <img src="https://static.wikia.nocookie.net/solo-leveling/images/3/35/SL_Chibis.png/revision/latest?cb=20200322002106" />
-
+</div>
+<div align="center">
 <a href="https://www.buymeacoffee.com/modouaicha023">
 <img width="100" src="./asset/images/Buy-Me-a-Coffee.png" style="width:50;border-radius:10px; "/>
 </a>
