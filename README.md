@@ -19,38 +19,35 @@ Hi there !  I'm a passionate Frontend Developer
 <h2> ⚡ Tech Stack</h2>
     <img src="./asset/images/myline.gif">
 <p align="center">
-    <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=html,css" />
-    <img width="50" style="border-radius: 15px;"   src="./asset/images/ohh.png" />
-     <img width="50" style="border-radius: 15px;"   src="./asset/images/hein.png" />
+    <img width="50" style="border-radius: 15px;margin-left:5px;"   src="./asset/images/ohh.png" />
+    <img width="50" style="border-radius: 15px;margin-left:5px;"   src="./asset/images/hein.png" />
        <br/> 
-    <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=react,nextjs,spring,express" />
+    <img src="https://techstack-generator.vercel.app/react-icon.svg" alt="icon" width="65" height="65" />
+    <img src="https://skillicons.dev/icons?i=nextjs,spring,express" />
       <br/> 
-      <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=bootstrap,tailwind,git,github" />
+    <img src="https://skillicons.dev/icons?i=bootstrap,tailwind,git" />
+    <img src="https://techstack-generator.vercel.app/github-icon.svg" alt="icon" width="65" height="65" />
        <br/> 
-    <img src="./asset/images/myline.gif">
-       
+    <img src="./asset/images/myline.gif">  
 </p>
      
 <p align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=js,java,python,ts,php" />
-  </a>
+<img src="https://techstack-generator.vercel.app/js-icon.svg" alt="icon" width="65" height="65" />
+  <img src="https://techstack-generator.vercel.app/ts-icon.svg" alt="icon" width="65" height="65" />
+  <img src="https://techstack-generator.vercel.app/python-icon.svg" alt="icon" width="65" height="65" />
+  <img src="https://techstack-generator.vercel.app/java-icon.svg" alt="icon" width="65" height="65" />
+    <img src="https://skillicons.dev/icons?i=php" />
     <img src="./asset/images/myline.gif">
-  <a href="https://skillicons.dev">
-     <img width="50" style="border-radius: 15px;"   src="./asset/images/heu.png" />
-    <img src="https://skillicons.dev/icons?i=mysql,mongodb" />
-      <img width="50" style="border-radius: 15px;"   src="./asset/images/euhh.jpg" />
-  </a>
+     <img width="50" style="border-radius: 15px;margin-right:5px; "   src="./asset/images/heu.png" />
+  <img src="https://techstack-generator.vercel.app/mysql-icon.svg" alt="icon" width="48" height="48" />
+    <img src="https://skillicons.dev/icons?i=mongodb" />
+      <img width="50" style="border-radius: 15px; margin-left:5px; "   src="./asset/images/euhh.jpg" />
     <img src="./asset/images/myline.gif">
-   <a href="https://skillicons.dev">
-    <img width="50" height="50" style="border-radius: 15px;"   src="./asset/images/channels4_profile.jpg" />
+    <img width="50" height="50" style="border-radius: 15px;margin-right:5px;"   src="./asset/images/channels4_profile.jpg" />
     <img src="https://skillicons.dev/icons?i=figma" />
-     <img width="50" height="50" style="border-radius: 15px;"   src="./asset/images/hoh.png" />
+     <img width="50" height="50" style="border-radius: 15px;margin-right:5px;margin-left:5px;"   src="./asset/images/hoh.png" />
       <img width="50" height="50" style="border-radius: 15px;"   src="./asset/images/hehehe.jpg" />
-  </a>
     <img src="./asset/images/myline.gif">
 </p>
 <div align="center">
@@ -72,7 +69,7 @@ Hi there !  I'm a passionate Frontend Developer
 </div>
 <div align="center">
 <a href="https://www.buymeacoffee.com/modouaicha023">
-<img width="100" src="./asset/images/Buy-Me-a-Coffee.png" style="width:50;border-radius:10px; "/>
+<img src="./asset/images/Buy-Me-a-Coffee.png" style="width:50;border-radius:10px; "/>
 </a>
 </div>
 <h2> See you soon👀😏👋🏾</h2>
