@@ -56,11 +56,32 @@ Hi there !  I'm a passionate Frontend Developer
 
 <h2> My GitHub Stats</h2>
 <div align="center">
+<br>
+
+<!-- <img src="https://github-readme-stats.vercel.app/api/wakatime?username=modouaicha023&theme=gotham&hide_border=true&layout=compact&hide_title=true&langs_count=100&range=all_time"  width="100%" alt=""/> -->
+
+<br>
   
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=modouaicha023)](https://github.com/anuraghazra/github-readme-stats)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=modouaicha023&langs_count=7&hide=c%23,hack,c,python&theme=tokyonight&hide_border=true)
+<br>
 
+[![wakatime](https://wakatime.com/badge/user/018c55cd-bcae-43b3-9fbf-8b4210c66914/project/018c55e9-16f3-4377-9787-adc796946160.svg)](https://wakatime.com/badge/user/018c55cd-bcae-43b3-9fbf-8b4210c66914/project/018c55e9-16f3-4377-9787-adc796946160)
 <img src="https://komarev.com/ghpvc/?username=modouaicha023&style=flat-square&color=red" alt=""/>
+<a href="https://github.com/modouaicha023?tab=following"><img src="https://img.shields.io/github/stars/modouaicha023?affiliations=OWNER%2CCOLLABORATOR%2CORGANIZATION_MEMBER&label=Total%20user%20stars%20in%20all%20repo&logoColor=red&style=social" alt="GitHub User's stars"></a>
+<a href="https://github.com/modouaicha023?tab=followers"><img src="https://img.shields.io/github/followers/modouaicha023?&logoColor=red&style=social" alt="GitHub followers"></a>
 
+<p align="center">
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=modouaicha023&theme=react-dark&hide_border=true&hide_title=false&area=true&custom_title=Total%20contribution%20graph%20in%20all%20repo" width="100%"  alt="activity graph">
+
+
+
+</p>
+
+
+<p align="center">
+<img src="https://github-profile-trophy.vercel.app/?username=modouaicha023&theme=onestar&no-frame=true&column=3&row=2"width="100%"  alt=""/>
+
+</p>
 </div>
 
 <h2> Buy me coffe☕😎</h2>
@@ -69,7 +90,7 @@ Hi there !  I'm a passionate Frontend Developer
 </div>
 <div align="center">
 <a href="https://www.buymeacoffee.com/modouaicha023">
-<img src="./asset/images/Buy-Me-a-Coffee.png" style="width:50;border-radius:10px; "/>
+<img src="./asset/images/Buy-Me-a-Coffee.png" style="width:50px;border-radius:10px;"/>
 </a>
 </div>
 <h2> See you soon👀😏👋🏾</h2>
