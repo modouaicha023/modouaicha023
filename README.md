@@ -71,7 +71,7 @@ Hi there !  I'm a passionate Frontend Developer
 <a href="https://github.com/modouaicha023?tab=followers"><img src="https://img.shields.io/github/followers/modouaicha023?&logoColor=red&style=social" alt="GitHub followers"></a>
 
 <p align="center">
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=modouaicha023&theme=react-dark&hide_border=true&hide_title=false&area=true&custom_title=Total%20contribution%20graph%20in%20all%20repo" width="100%"  alt="activity graph">
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=modouaicha023&theme=react-dark&hide_border=true&hide_title=false&area=true&custom_title=Total%20contribution%20graph%20in%20all%20repo" width="60%"  alt="activity graph">
 
 
 
@@ -79,7 +79,7 @@ Hi there !  I'm a passionate Frontend Developer
 
 
 <p align="center">
-<img src="https://github-profile-trophy.vercel.app/?username=modouaicha023&theme=onestar&no-frame=true&column=3&row=2"width="100%"  alt=""/>
+<img src="https://github-profile-trophy.vercel.app/?username=modouaicha023&theme=onestar&no-frame=true&column=3&row=2"width="40%"  alt=""/>
 
 </p>
 </div>
