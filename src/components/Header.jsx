@@ -12,7 +12,7 @@ const ThemeToggle = dynamic(() => import("./ui/utils/ThemeToggle"), {
 });
 export default function Header() {
   return (
-    <header className="flex w-full max-w-7xl items-center justify-between p-8 fixed top-0">
+    <header className="flex w-full  max-w-7xl items-center justify-between p-8 fixed top-0 z-10 backdrop-blur-sm">
       <Link href="/projects">
         <Image src={logo} alt="avatar" height={40} />
       </Link>
