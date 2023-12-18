@@ -4,12 +4,13 @@ import Link from "next/link";
 import React from "react";
 import logo from "../../public/images/Logo.png";
 import { MoreHorizontal } from "lucide-react";
-import dynamic from "next/dynamic";
+// import dynamic from "next/dynamic";
 import basketball from "../../public/images/ballBAsket.gif";
+import ThemeToggle from "./ui/utils/ThemeToggle";
 
-const ThemeToggle = dynamic(() => import("./ui/utils/ThemeToggle"), {
-  ssr: false,
-});
+// const ThemeToggle = dynamic(() => import("./ui/utils/ThemeToggle"), {
+//   ssr: false,
+// });
 export default function Header() {
   return (
     <header className="flex w-full  max-w-7xl items-center justify-between p-8 fixed top-0 z-10 backdrop-blur-sm">
