@@ -13,8 +13,8 @@ import ThemeToggle from "./ui/utils/ThemeToggle";
 // });
 export default function Header() {
   return (
-    <header className="flex w-full  max-w-7xl items-center justify-between p-8 fixed top-0 z-10 backdrop-blur-sm">
-      <Link href="/projects">
+    <headers className="flex w-full  max-w-7xl items-center justify-between p-8 fixed top-0 z-10 backdrop-blur-sm">
+      <Link href="/">
         <Image src={logo} alt="avatar" height={40} />
       </Link>
       <div className="font-extrabold text-center hidden sm:flex items-center justify-center min-w-[250px] text-3xl">
@@ -26,6 +26,6 @@ export default function Header() {
         <ThemeToggle />
         <MoreHorizontal size={48} className="cursor-pointer" />
       </div>
-    </header>
+    </headers>
   );
 }
