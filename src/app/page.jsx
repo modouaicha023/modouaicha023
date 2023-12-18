@@ -14,15 +14,15 @@ export default function Home() {
     <Container>
       <Section>
         <div
-          className={`${josefinSlab.className} grid grid-rows-10 grid-cols-5 bkpgrid:grid-rows-6 bkpgrid:grid-cols-10 bkpgrid:   w-full h-full  `}>
-          <div className="row-start-2 row-end-5 col-start-1 col-end-2  bkpgrid:row-start-2 bkpgrid:row-end-5 bkpgrid:col-start-2 bkpgrid:col-end-5 rounded max-w-sm min-w-[250px] flex flex-col gap-4 p-2 self-start">
-            <div className=" max-w-sm min-w-[250px]  flex flex-col  gap-6 ">
-            <h2 className="text-5xl">Modou&apos;s playground?</h2>
+          className={`${josefinSlab.className} grid grid-rows-10 grid-cols-5 bkpgrid:grid-rows-6 bkpgrid:grid-cols-10 bkpgrid:w-full bkpgrid:h-full h-screen w-screen`}>
+          <div className="row-start-2 row-end-5 col-start-1 col-end-2  bkpgrid:row-start-2 bkpgrid:row-end-5 place-self-center	bkpgrid:col-start-2 bkpgrid:col-end-5 rounded  min-w-[250px] flex flex-col gap-4 p-2 self-start">
+            <div className=" min-w-[250px]  flex flex-col  gap-6 ">
+              <h2 className="text-5xl">Modou&apos;s playground?</h2>
               <p className="text-base   rounded-md">
-                I am a fullstack developer, currently looking into learning
-                new things (Astro, Next.JS, and backend technologies). Whenever
-                I feel like I should share my knowledge with others, I like to
-                do it via blog posts and social media.
+                I am a fullstack developer, currently looking into learning new
+                things (Astro, Next.JS, and backend technologies). Whenever I
+                feel like I should share my knowledge with others, I like to do
+                it via blog posts and social media.
               </p>
             </div>
 
