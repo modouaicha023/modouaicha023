@@ -1,190 +1,35 @@
+import Container from "@/components/ui/utils/Container";
+import Section from "@/components/ui/utils/Section";
+
 export default function Loading() {
   return (
-    <div className="flex flex-wrap gap-4 justify-center items-center min-w-max max-w-7xl">
-      <div role="status" className="space-y-2.5 animate-pulse max-w-7xl flex flex-wrap gap-">
-        <div className="flex items-center w-full">
-          <div className="h-14 bg-gray-200 rounded-full dark:bg-gray-700 w-32"></div>
-          <div className="h-14 ms-2 bg-gray-300 rounded-full dark:bg-gray-600 w-24"></div>
-          <div className="h-14 ms-2 bg-gray-300 rounded-full dark:bg-gray-600 w-full"></div>
-        </div>
-        <div className="flex items-center w-full max-w-[480px]">
-          <div className="h-14 bg-gray-200 rounded-full dark:bg-gray-700 w-full"></div>
-          <div className="h-14 ms-2 bg-gray-300 rounded-full dark:bg-gray-600 w-full"></div>
-          <div className="h-14 ms-2 bg-gray-300 rounded-full dark:bg-gray-600 w-24"></div>
-        </div>
-        <div className="flex items-center w-full max-w-[400px]">
-          <div className="h-14 bg-gray-300 rounded-full dark:bg-gray-600 w-full"></div>
-          <div className="h-14 ms-2 bg-gray-200 rounded-full dark:bg-gray-700 w-80"></div>
-          <div className="h-14 ms-2 bg-gray-300 rounded-full dark:bg-gray-600 w-full"></div>
-        </div>
-        <div className="flex items-center w-full max-w-[480px]">
-          <div className="h-14 ms-2 bg-gray-200 rounded-full dark:bg-gray-700 w-full"></div>
-          <div className="h-14 ms-2 bg-gray-300 rounded-full dark:bg-gray-600 w-full"></div>
-          <div className="h-14 ms-2 bg-gray-300 rounded-full dark:bg-gray-600 w-24"></div>
-        </div>
-        <div className="flex items-center w-full max-w-[440px]">
-          <div className="h-14 ms-2 bg-gray-300 rounded-full dark:bg-gray-600 w-32"></div>
-          <div className="h-14 ms-2 bg-gray-300 rounded-full dark:bg-gray-600 w-24"></div>
-          <div className="h-14 ms-2 bg-gray-200 rounded-full dark:bg-gray-700 w-full"></div>
-        </div>
-        <div className="flex items-center w-full max-w-[360px]">
-          <div className="h-14 ms-2 bg-gray-300 rounded-full dark:bg-gray-600 w-full"></div>
-          <div className="h-14 ms-2 bg-gray-200 rounded-full dark:bg-gray-700 w-80"></div>
-          <div className="h-14 ms-2 bg-gray-300 rounded-full dark:bg-gray-600 w-full"></div>
-        </div>
-        <div className="flex items-center w-full">
-          <div className="h-14 bg-gray-200 rounded-full dark:bg-gray-700 w-32"></div>
-          <div className="h-14 ms-2 bg-gray-300 rounded-full dark:bg-gray-600 w-24"></div>
-          <div className="h-14 ms-2 bg-gray-300 rounded-full dark:bg-gray-600 w-full"></div>
-        </div>
-        <div className="flex items-center w-full max-w-[480px]">
-          <div className="h-14 bg-gray-200 rounded-full dark:bg-gray-700 w-full"></div>
-          <div className="h-14 ms-2 bg-gray-300 rounded-full dark:bg-gray-600 w-full"></div>
-          <div className="h-14 ms-2 bg-gray-300 rounded-full dark:bg-gray-600 w-24"></div>
-        </div>
-        <div className="flex items-center w-full max-w-[400px]">
-          <div className="h-14 bg-gray-300 rounded-full dark:bg-gray-600 w-full"></div>
-          <div className="h-14 ms-2 bg-gray-200 rounded-full dark:bg-gray-700 w-80"></div>
-          <div className="h-14 ms-2 bg-gray-300 rounded-full dark:bg-gray-600 w-full"></div>
-        </div>
-        <div className="flex items-center w-full max-w-[480px]">
-          <div className="h-14 ms-2 bg-gray-200 rounded-full dark:bg-gray-700 w-full"></div>
-          <div className="h-14 ms-2 bg-gray-300 rounded-full dark:bg-gray-600 w-full"></div>
-          <div className="h-14 ms-2 bg-gray-300 rounded-full dark:bg-gray-600 w-24"></div>
-        </div>
-        <div className="flex items-center w-full max-w-[440px]">
-          <div className="h-14 ms-2 bg-gray-300 rounded-full dark:bg-gray-600 w-32"></div>
-          <div className="h-14 ms-2 bg-gray-300 rounded-full dark:bg-gray-600 w-24"></div>
-          <div className="h-14 ms-2 bg-gray-200 rounded-full dark:bg-gray-700 w-full"></div>
-        </div>
-        <div className="flex items-center w-full max-w-[360px]">
-          <div className="h-14 ms-2 bg-gray-300 rounded-full dark:bg-gray-600 w-full"></div>
-          <div className="h-14 ms-2 bg-gray-200 rounded-full dark:bg-gray-700 w-80"></div>
-          <div className="h-14 ms-2 bg-gray-300 rounded-full dark:bg-gray-600 w-full"></div>
-        </div>
-        <div className="flex items-center w-full">
-          <div className="h-14 bg-gray-200 rounded-full dark:bg-gray-700 w-32"></div>
-          <div className="h-14 ms-2 bg-gray-300 rounded-full dark:bg-gray-600 w-24"></div>
-          <div className="h-14 ms-2 bg-gray-300 rounded-full dark:bg-gray-600 w-full"></div>
-        </div>
-        <div className="flex items-center w-full max-w-[480px]">
-          <div className="h-14 bg-gray-200 rounded-full dark:bg-gray-700 w-full"></div>
-          <div className="h-14 ms-2 bg-gray-300 rounded-full dark:bg-gray-600 w-full"></div>
-          <div className="h-14 ms-2 bg-gray-300 rounded-full dark:bg-gray-600 w-24"></div>
-        </div>
-        <div className="flex items-center w-full max-w-[400px]">
-          <div className="h-14 bg-gray-300 rounded-full dark:bg-gray-600 w-full"></div>
-          <div className="h-14 ms-2 bg-gray-200 rounded-full dark:bg-gray-700 w-80"></div>
-          <div className="h-14 ms-2 bg-gray-300 rounded-full dark:bg-gray-600 w-full"></div>
-        </div>
-        <div className="flex items-center w-full max-w-[480px]">
-          <div className="h-14 ms-2 bg-gray-200 rounded-full dark:bg-gray-700 w-full"></div>
-          <div className="h-14 ms-2 bg-gray-300 rounded-full dark:bg-gray-600 w-full"></div>
-          <div className="h-14 ms-2 bg-gray-300 rounded-full dark:bg-gray-600 w-24"></div>
-        </div>
-        <div className="flex items-center w-full max-w-[440px]">
-          <div className="h-14 ms-2 bg-gray-300 rounded-full dark:bg-gray-600 w-32"></div>
-          <div className="h-14 ms-2 bg-gray-300 rounded-full dark:bg-gray-600 w-24"></div>
-          <div className="h-14 ms-2 bg-gray-200 rounded-full dark:bg-gray-700 w-full"></div>
-        </div>
-        <div className="flex items-center w-full max-w-[360px]">
-          <div className="h-14 ms-2 bg-gray-300 rounded-full dark:bg-gray-600 w-full"></div>
-          <div className="h-14 ms-2 bg-gray-200 rounded-full dark:bg-gray-700 w-80"></div>
-          <div className="h-14 ms-2 bg-gray-300 rounded-full dark:bg-gray-600 w-full"></div>
-        </div>
-        <div className="flex items-center w-full">
-          <div className="h-14 bg-gray-200 rounded-full dark:bg-gray-700 w-32"></div>
-          <div className="h-14 ms-2 bg-gray-300 rounded-full dark:bg-gray-600 w-24"></div>
-          <div className="h-14 ms-2 bg-gray-300 rounded-full dark:bg-gray-600 w-full"></div>
-        </div>
-        <div className="flex items-center w-full max-w-[480px]">
-          <div className="h-14 bg-gray-200 rounded-full dark:bg-gray-700 w-full"></div>
-          <div className="h-14 ms-2 bg-gray-300 rounded-full dark:bg-gray-600 w-full"></div>
-          <div className="h-14 ms-2 bg-gray-300 rounded-full dark:bg-gray-600 w-24"></div>
-        </div>
-        <div className="flex items-center w-full max-w-[400px]">
-          <div className="h-14 bg-gray-300 rounded-full dark:bg-gray-600 w-full"></div>
-          <div className="h-14 ms-2 bg-gray-200 rounded-full dark:bg-gray-700 w-80"></div>
-          <div className="h-14 ms-2 bg-gray-300 rounded-full dark:bg-gray-600 w-full"></div>
-        </div>
-        <div className="flex items-center w-full max-w-[480px]">
-          <div className="h-14 ms-2 bg-gray-200 rounded-full dark:bg-gray-700 w-full"></div>
-          <div className="h-14 ms-2 bg-gray-300 rounded-full dark:bg-gray-600 w-full"></div>
-          <div className="h-14 ms-2 bg-gray-300 rounded-full dark:bg-gray-600 w-24"></div>
-        </div>
-        <div className="flex items-center w-full max-w-[440px]">
-          <div className="h-14 ms-2 bg-gray-300 rounded-full dark:bg-gray-600 w-32"></div>
-          <div className="h-14 ms-2 bg-gray-300 rounded-full dark:bg-gray-600 w-24"></div>
-          <div className="h-14 ms-2 bg-gray-200 rounded-full dark:bg-gray-700 w-full"></div>
-        </div>
-        <div className="flex items-center w-full max-w-[360px]">
-          <div className="h-14 ms-2 bg-gray-300 rounded-full dark:bg-gray-600 w-full"></div>
-          <div className="h-14 ms-2 bg-gray-200 rounded-full dark:bg-gray-700 w-80"></div>
-          <div className="h-14 ms-2 bg-gray-300 rounded-full dark:bg-gray-600 w-full"></div>
-        </div>
-        <div className="flex items-center w-full">
-          <div className="h-14 bg-gray-200 rounded-full dark:bg-gray-700 w-32"></div>
-          <div className="h-14 ms-2 bg-gray-300 rounded-full dark:bg-gray-600 w-24"></div>
-          <div className="h-14 ms-2 bg-gray-300 rounded-full dark:bg-gray-600 w-full"></div>
-        </div>
-        <div className="flex items-center w-full max-w-[480px]">
-          <div className="h-14 bg-gray-200 rounded-full dark:bg-gray-700 w-full"></div>
-          <div className="h-14 ms-2 bg-gray-300 rounded-full dark:bg-gray-600 w-full"></div>
-          <div className="h-14 ms-2 bg-gray-300 rounded-full dark:bg-gray-600 w-24"></div>
-        </div>
-        <div className="flex items-center w-full max-w-[400px]">
-          <div className="h-14 bg-gray-300 rounded-full dark:bg-gray-600 w-full"></div>
-          <div className="h-14 ms-2 bg-gray-200 rounded-full dark:bg-gray-700 w-80"></div>
-          <div className="h-14 ms-2 bg-gray-300 rounded-full dark:bg-gray-600 w-full"></div>
-        </div>
-        <div className="flex items-center w-full max-w-[480px]">
-          <div className="h-14 ms-2 bg-gray-200 rounded-full dark:bg-gray-700 w-full"></div>
-          <div className="h-14 ms-2 bg-gray-300 rounded-full dark:bg-gray-600 w-full"></div>
-          <div className="h-14 ms-2 bg-gray-300 rounded-full dark:bg-gray-600 w-24"></div>
-        </div>
-        <div className="flex items-center w-full max-w-[440px]">
-          <div className="h-14 ms-2 bg-gray-300 rounded-full dark:bg-gray-600 w-32"></div>
-          <div className="h-14 ms-2 bg-gray-300 rounded-full dark:bg-gray-600 w-24"></div>
-          <div className="h-14 ms-2 bg-gray-200 rounded-full dark:bg-gray-700 w-full"></div>
-        </div>
-        <div className="flex items-center w-full max-w-[360px]">
-          <div className="h-14 ms-2 bg-gray-300 rounded-full dark:bg-gray-600 w-full"></div>
-          <div className="h-14 ms-2 bg-gray-200 rounded-full dark:bg-gray-700 w-80"></div>
-          <div className="h-14 ms-2 bg-gray-300 rounded-full dark:bg-gray-600 w-full"></div>
-        </div>
-        <div className="flex items-center w-full">
-          <div className="h-14 bg-gray-200 rounded-full dark:bg-gray-700 w-32"></div>
-          <div className="h-14 ms-2 bg-gray-300 rounded-full dark:bg-gray-600 w-24"></div>
-          <div className="h-14 ms-2 bg-gray-300 rounded-full dark:bg-gray-600 w-full"></div>
-        </div>
-        <div className="flex items-center w-full max-w-[480px]">
-          <div className="h-14 bg-gray-200 rounded-full dark:bg-gray-700 w-full"></div>
-          <div className="h-14 ms-2 bg-gray-300 rounded-full dark:bg-gray-600 w-full"></div>
-          <div className="h-14 ms-2 bg-gray-300 rounded-full dark:bg-gray-600 w-24"></div>
-        </div>
-        <div className="flex items-center w-full max-w-[400px]">
-          <div className="h-14 bg-gray-300 rounded-full dark:bg-gray-600 w-full"></div>
-          <div className="h-14 ms-2 bg-gray-200 rounded-full dark:bg-gray-700 w-80"></div>
-          <div className="h-14 ms-2 bg-gray-300 rounded-full dark:bg-gray-600 w-full"></div>
-        </div>
-        <div className="flex items-center w-full max-w-[480px]">
-          <div className="h-14 ms-2 bg-gray-200 rounded-full dark:bg-gray-700 w-full"></div>
-          <div className="h-14 ms-2 bg-gray-300 rounded-full dark:bg-gray-600 w-full"></div>
-          <div className="h-14 ms-2 bg-gray-300 rounded-full dark:bg-gray-600 w-24"></div>
-        </div>
-        <div className="flex items-center w-full max-w-[440px]">
-          <div className="h-14 ms-2 bg-gray-300 rounded-full dark:bg-gray-600 w-32"></div>
-          <div className="h-14 ms-2 bg-gray-300 rounded-full dark:bg-gray-600 w-24"></div>
-          <div className="h-14 ms-2 bg-gray-200 rounded-full dark:bg-gray-700 w-full"></div>
-        </div>
-        <div className="flex items-center w-full max-w-[360px]">
-          <div className="h-14 ms-2 bg-gray-300 rounded-full dark:bg-gray-600 w-full"></div>
-          <div className="h-14 ms-2 bg-gray-200 rounded-full dark:bg-gray-700 w-80"></div>
-          <div className="h-14 ms-2 bg-gray-300 rounded-full dark:bg-gray-600 w-full"></div>
-        </div>
-        <span className="sr-only">Loading...</span>
-      </div>
+    <Container>
+      <Section>
+        <div className="flex flex-col w-fit  bkpgrid:grid   bkpgrid:grid-rows-6 bkpgrid:grid-cols-10 bkpgrid:w-full bkpgrid:h-full ">
+          <div className=" flex  items-center my-20 bkpgrid:my-0  min-h-[330px]   bkpgrid:row-start-2 bkpgrid:row-end-5 bkpgrid:col-start-2 bkpgrid:col-end-5">
+            <div className="w-full">
+              <div className="max-w-sm rounded  shadow-lg animate-pulse">
+                <div className=" py-4">
+                  <div className="h-8 bg-gray-300 w-2/3"></div>
+                </div>
+                <div className="h-48 bg-gray-300"></div>
+                <div className=" pt-4 pb-2">
+                  <div className="h-12 bg-gray-300 w-full mb-2 rounded-lg"></div>
+                </div>
+              </div>
+            </div>
+          </div>
 
-    </div>
+          <div className="flex w-full  items-center bkpgrid:row-start-2 bkpgrid:row-end-6 bkpgrid:col-start-6 bkpgrid:col-end-10">
+            <div className="w-full">
+              <div className="max-w-sm rounded  shadow-lg animate-pulse">
+                <div className="h-[400px] bg-gray-300"></div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </Section>
+    </Container>
   );
 }

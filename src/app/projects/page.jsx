@@ -6,13 +6,7 @@ export default function Projects() {
   return (
     <Container>
       <Section>
-        
-        <div className="">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum ex
-          incidunt culpa ipsa iusto cupiditate, porro repudiandae a dolore dicta
-          tenetur quisquam deserunt, provident animi minima debitis temporibus
-          sunt sint.
-        </div>
+        <div className="flex items-center justify-center  ">In building...</div>
       </Section>
     </Container>
   );
