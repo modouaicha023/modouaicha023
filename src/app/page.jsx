@@ -3,14 +3,11 @@ import Container from "@/components/ui/utils/Container";
 import Section from "@/components/ui/utils/Section";
 import Image from "next/image";
 import { Josefin_Slab } from "next/font/google";
-import  githubLight from "../../public/images/github.svg";
-import github from "../../public/images/github-light.svg";
-import urlIcon from "../../public/images/external-link.svg";
-import urlIconlight from "../../public/images/external-light.svg";
+import { Github, ExternalLink } from "lucide-react";
+
 import Link from "next/link";
 import { projects } from "./api/data";
 import { useEffect, useState } from "react";
-import { useTheme } from "next-themes";
 
 const josefinSlab = Josefin_Slab({
   weight: "700",
@@ -19,7 +16,6 @@ const josefinSlab = Josefin_Slab({
 });
 export default function Home() {
   const [currentProject, setCurrentProject] = useState(null);
-  const { theme, setTheme } = useTheme();
 
   useEffect(() => {
     const randomizeProject = () => {
@@ -49,8 +45,7 @@ export default function Home() {
               </p>
             </div>
             <Link href={"/projects"}>
-              <button
-                className="max-w-sm w-full text-xl font-extrabold text-center cursor-pointer group relative  px-8 py-4 bg-black text-[#f1f1f1] rounded-3xl hover:bg-opacity-90 hover:text-opacity-80  transition  shadow-md ">
+              <button className="max-w-sm w-full text-xl font-extrabold text-center cursor-pointer group relative  px-8 py-4 bg-black text-[#f1f1f1] rounded-3xl hover:bg-opacity-90 hover:text-opacity-80  transition  shadow-md ">
                 See Projects
               </button>
             </Link>
@@ -81,23 +76,10 @@ export default function Home() {
                   </div>
                   <div className="self-end flex gap-1 w-fit absolute right-0 -top-6 opacity-80">
                     <Link href={currentProject.githubUrl}>
-                      {" "}
-                      <Image
-                        src={theme === "dark" ? github : githubLight}
-                        width={16}
-                        height={16}
-                        alt="github"
-                        className="dark:to-white"
-                      />{" "}
+                      <Github size={16}/>
                     </Link>
                     <Link href={currentProject.url}>
-                      <Image
-                        src={theme === "dark" ? urlIcon : urlIconlight}
-                        width={16}
-                        height={16}
-                        alt="link"
-                        className=""
-                      />{" "}
+                      <ExternalLink size={16}/>
                     </Link>
                   </div>
                 </div>
