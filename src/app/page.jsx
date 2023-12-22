@@ -38,7 +38,7 @@ export default function Home() {
                 Modou&apos;s playground?
               </h2>
               <p className="text-base   rounded-md">
-                I am a fullstack developer, currently looking into learning new
+                I am a developer, currently looking into learning new
                 things (Astro, Next.JS, and backend technologies). Whenever I
                 feel like I should share my knowledge with others, I like to do
                 it via blog posts and social media.
