@@ -38,10 +38,13 @@ export default function Home() {
                 Modou&apos;s playground?
               </h2>
               <p className="text-base   rounded-md">
-                I am a developer, currently looking into learning new
-                things (Astro, Next.JS, and backend technologies). Whenever I
-                feel like I should share my knowledge with others, I like to do
-                it via blog posts and social media.
+                I'm a junior developer currently immersed in crafting a personal
+                project— an innovative 'Bakery management application'. My
+                primary focus revolves around mastering JavaScript and its
+                surrounding technologies. Aspiring to become a good developer, I
+                am curious about robust engineering solutions. Eager to enhance
+                my skills, I thrive on learning from others and constantly seek
+                opportunities to elevate my capabilities.
               </p>
             </div>
             <Link href={"/projects"}>
@@ -76,10 +79,10 @@ export default function Home() {
                   </div>
                   <div className="self-end flex gap-1 w-fit absolute right-0 -top-6 opacity-80">
                     <Link href={currentProject.githubUrl}>
-                      <Github size={16}/>
+                      <Github size={16} />
                     </Link>
                     <Link href={currentProject.url}>
-                      <ExternalLink size={16}/>
+                      <ExternalLink size={16} />
                     </Link>
                   </div>
                 </div>
