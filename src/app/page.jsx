@@ -38,13 +38,14 @@ export default function Home() {
                 Modou&apos;s playground?
               </h2>
               <p className="text-base   rounded-md">
-                I&apos;m a junior developer currently immersed in crafting a personal
-                project— an innovative &apos;Bakery management application&apos;. My
-                primary focus revolves around mastering JavaScript and its
-                surrounding technologies. Aspiring to become a good developer, I
-                am curious about robust engineering solutions. Eager to enhance
-                my skills, I thrive on learning from others and constantly seek
-                opportunities to elevate my capabilities.
+                I&apos;m a junior developer currently immersed in crafting a
+                personal project—an innovative &apos;Bakery management
+                application&apos;. <br /> My primary focus revolves around
+                mastering JavaScript and its surrounding technologies. <br />
+                Aspiring to become a good developer, I am curious about robust
+                engineering solutions. <br /> Eager to enhance my skills, I
+                thrive on learning from others and constantly seek opportunities
+                to elevate my capabilities.
               </p>
             </div>
             <Link href={"/projects"}>
