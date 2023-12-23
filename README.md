@@ -2,21 +2,21 @@
 
 <div align="center">
   
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Major+Mono+Display&weight=800&size=30&duration=3500&pause=3000&color=FA7070&background=3574FF00&center=true&vCenter=true&width=435&lines=FrontEnd+Developer)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Major+Mono+Display&weight=800&size=30&duration=3500&pause=3000&color=FA7070&background=3574FF00&center=true&vCenter=true&width=435&lines=Hi+There+👋🏾)](https://git.io/typing-svg)
 
   <img  src="./public/images/mojinwoo.png" width="400"/>
 </div>
 <h3>
-Hi there !  I'm a passionate Frontend Developer 
+Hi there !  I'm a passionate  Developer 
   <img width="30" style="border-radius: 15px;"  src="./public/images/lineman.gif" />
  with a keen eye for beautiful user interfaces. While I primarily specialize in creating stunning frontend experiences 
    <img width="20" style="border-radius: 15px;"  src="./public/images/dinolove.gif" />
-   , I've also been on an exciting journey to learn Java
-    <img width="30" style="border-radius: 15px;"  src="./public/images/coffee.gif" />
-    for backend development.🌟
+   , I've also been on an exciting journey to learn backend technologies
+    <!-- <img width="30" style="border-radius: 15px;"  src="./public/images/coffee.gif" />
+    for backend development.🌟 -->
 </h3>
 
-<h2> ⚡ Tech Stack</h2>
+<h2> ⚡ tech stack i use the most</h2>
     <img src="./public/images/myline.gif">
 <p align="center">
     <img src="https://skillicons.dev/icons?i=html,css" />
@@ -24,10 +24,10 @@ Hi there !  I'm a passionate Frontend Developer
     <img width="50" style="border-radius: 15px;margin-left:5px;"   src="./public/images/hein.png" />
        <br/> 
     <img src="https://techstack-generator.vercel.app/react-icon.svg" alt="icon" width="65" height="65" />
-    <img src="https://skillicons.dev/icons?i=nextjs,spring,express" />
+    <img src="https://skillicons.dev/icons?i=nextjs,nodejs,express" />
       <br/> 
-    <img src="https://skillicons.dev/icons?i=bootstrap,tailwind,git" />
-    <img src="https://techstack-generator.vercel.app/github-icon.svg" alt="icon" width="65" height="65" />
+    <!-- <img src="https://skillicons.dev/icons?i=bootstrap,tailwind,git" /> -->
+    <!-- <img src="https://techstack-generator.vercel.app/github-icon.svg" alt="icon" width="65" height="65" /> -->
        <br/> 
     <img src="./public/images/myline.gif">  
 </p>
@@ -35,9 +35,9 @@ Hi there !  I'm a passionate Frontend Developer
 <p align="center">
 <img src="https://techstack-generator.vercel.app/js-icon.svg" alt="icon" width="65" height="65" />
   <img src="https://techstack-generator.vercel.app/ts-icon.svg" alt="icon" width="65" height="65" />
-  <img src="https://techstack-generator.vercel.app/python-icon.svg" alt="icon" width="65" height="65" />
+  <!-- <img src="https://techstack-generator.vercel.app/python-icon.svg" alt="icon" width="65" height="65" /> -->
   <img src="https://techstack-generator.vercel.app/java-icon.svg" alt="icon" width="65" height="65" />
-    <img src="https://skillicons.dev/icons?i=php" />
+    <!-- <img src="https://skillicons.dev/icons?i=php" /> -->
     <img src="./public/images/myline.gif">
      <img width="50" style="border-radius: 15px;margin-right:5px; "   src="./public/images/heu.png" />
   <img src="https://techstack-generator.vercel.app/mysql-icon.svg" alt="icon" width="48" height="48" />
@@ -62,7 +62,7 @@ Hi there !  I'm a passionate Frontend Developer
 
 <br>
   
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=modouaicha023&langs_count=7&hide=c%23,hack,c,python&theme=tokyonight&hide_border=true)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=modouaicha023&langs_count=4&hide=c%23,hack,c,python&theme=tokyonight&hide_border=true)
 <br>
 
 <img src="https://komarev.com/ghpvc/?username=modouaicha023&style=flat-square&color=red" alt=""/>
@@ -84,7 +84,7 @@ Hi there !  I'm a passionate Frontend Developer
 </p>
 </div>
 
-<h2> Buy me coffe☕😎</h2>
+<!-- <h2> Buy me coffe☕😎</h2>
 <div align="center">
 <img src="https://static.wikia.nocookie.net/solo-leveling/images/3/35/SL_Chibis.png/revision/latest?cb=20200322002106" />
 </div>
@@ -92,6 +92,6 @@ Hi there !  I'm a passionate Frontend Developer
 <a href="https://www.buymeacoffee.com/modouaicha023">
 <img src="./public/images/Buy-Me-a-Coffee.png" style="width:50px;border-radius:10px;"/>
 </a>
-</div>
+</div> -->
 <h2> See you soon👀😏👋🏾</h2>
 <img   src="./public/images/solosimile.jpg" />
