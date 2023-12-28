@@ -34,15 +34,15 @@ export const projects = [
     url: "https://modouaicha023.github.io/GameOfLife",
     githubUrl: "https://github.com/modouaicha023/GameOfLife",
   },
-  {
-    name: "Tech Survey",
-    image: techSurveyImage,
-    stack: ["Next.JS", "JavaScript", "Firebase"],
-    description:
-      "The goal of this project is to establish a platform dedicated to conducting salary surveys for developers in Senegal. Users have the ability to participate in surveys, create their own surveys, and access all survey data within the platform.",
-    url: "https://tech-survey.vercel.app",
-    githubUrl: "https://github.com/modouaicha023/tech-survey",
-  },
+  // {
+  //   name: "Tech Survey",
+  //   image: techSurveyImage,
+  //   stack: ["Next.JS", "JavaScript", "Firebase"],
+  //   description:
+  //     "The goal of this project is to establish a platform dedicated to conducting salary surveys for developers in Senegal. Users have the ability to participate in surveys, create their own surveys, and access all survey data within the platform.",
+  //   url: "https://tech-survey.vercel.app",
+  //   githubUrl: "https://github.com/modouaicha023/tech-survey",
+  // },
   {
     name: "Blog App",
     image: blogAppImage,
