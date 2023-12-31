@@ -42,7 +42,7 @@ export default function Home() {
                 personal project — an innovative Bakery management
                 application.{"  "}My primary focus revolves around
                 mastering JavaScript and its surrounding technologies.{"  "}
-                Aspiring to become a frontend enginner, I&apos;m passionate
+                Aspiring to become a frontend engineer, I&apos;m passionate
                 about beautiful user interfaces and curious about robust
                 engineering solutions.{"  "}Eager to enhance my skills, I thrive
                 on learning from others and constantly seek opportunities to
