@@ -39,8 +39,8 @@ export default function Home() {
               </h2>
               <p className="text-base   rounded-md">
                 I&apos;m a junior developer currently immersed in crafting a
-                personal project—an innovative &apos;Bakery management
-                application&apos;.{"  "}My primary focus revolves around
+                personal project — an innovative Bakery management
+                application.{"  "}My primary focus revolves around
                 mastering JavaScript and its surrounding technologies.{"  "}
                 Aspiring to become a frontend enginner, I&apos;m passionate
                 about beautiful user interfaces and curious about robust
