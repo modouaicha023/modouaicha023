@@ -42,10 +42,11 @@ export default function Home() {
                 personal project—an innovative &apos;Bakery management
                 application&apos;. <br /> My primary focus revolves around
                 mastering JavaScript and its surrounding technologies. <br />
-                Aspiring to become a good developer, I am curious about robust
-                engineering solutions. <br /> Eager to enhance my skills, I
-                thrive on learning from others and constantly seek opportunities
-                to elevate my capabilities.
+                Aspiring to become a frontend enginner, I'm passionate about
+                beautiful user interfaces and curious about robust engineering
+                solutions. <br /> Eager to enhance my skills, I thrive on
+                learning from others and constantly seek opportunities to
+                elevate my capabilities.
               </p>
             </div>
             <Link href={"/projects"}>
