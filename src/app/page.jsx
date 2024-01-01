@@ -37,17 +37,44 @@ export default function Home() {
               <h2 className="text-5xl text-center bkpgrid:text-left">
                 Modou&apos;s playground?
               </h2>
-              <p className="text-base   rounded-md">
-                I&apos;m a junior developer currently immersed in crafting a
-                personal project — an innovative Bakery management
-                application.{"  "}My primary focus revolves around
-                mastering JavaScript and its surrounding technologies.{"  "}
-                Aspiring to become a frontend engineer, I&apos;m passionate
-                about beautiful user interfaces and curious about robust
-                engineering solutions.{"  "}Eager to enhance my skills, I thrive
-                on learning from others and constantly seek opportunities to
-                elevate my capabilities.
-              </p>
+              <div className="text-base rounded-md">
+                <p>
+                  {" "}
+                  I&apos;m a junior{" "}
+                  <span className="opacity-60 text-xl font-extrabold">
+                    developer
+                  </span>{" "}
+                  currently immersed in crafting a personal project — an
+                  innovative management application.
+                </p>
+                <p>
+                  My primary focus revolves around mastering{" "}
+                  <span className="opacity-60 text-xl font-extrabold p-1 hover:text-yellow-300 hover:opacity-100 hover:bg-black ">
+                    JavaScript
+                  </span>{" "}
+                  and its surrounding technologies.{" "}
+                </p>
+                <p>
+                  Aspiring to become a{" "}
+                  <span className="opacity-60 text-xl font-extrabold">
+                    software engineer
+                  </span>
+                  , I&apos;m passionate about beautiful user interfaces and
+                  curious about robust engineering{" "}
+                  <span className="opacity-60 text-xl font-extrabold">
+                    solutions
+                  </span>
+                  .
+                </p>
+                <p>
+                  Wishing to improve my skills, I enjoy{" "}
+                  <span className="opacity-60 text-xl font-extrabold">
+                    learning
+                  </span>{" "}
+                  from others and I am constantly looking for opportunities to
+                  elevate my abilities.
+                </p>
+              </div>
             </div>
             <Link href={"/projects"}>
               <button className="max-w-sm w-full text-xl font-extrabold text-center cursor-pointer group relative  px-8 py-4 bg-black text-[#f1f1f1] rounded-3xl hover:bg-opacity-90 hover:text-opacity-80  transition  shadow-md ">
@@ -57,7 +84,7 @@ export default function Home() {
           </div>
 
           {currentProject && (
-            <div className="flex-grow min-h-[400px] bkpgrid:row-start-2 bkpgrid:row-end-6 bkpgrid:col-start-6 bkpgrid:col-end-10 border border-white border-opacity-10 rounded min-w-[250px] flex flex-col gap-4 p-2 shadow-sm">
+            <div className="flex-grow min-h-fit max-h-[450px] bkpgrid:row-start-2 bkpgrid:row-end-6 bkpgrid:col-start-6 bkpgrid:col-end-10 border border-white border-opacity-10 rounded min-w-[250px] flex flex-col gap-4 p-2 shadow-sm">
               <div className="min-w-[250px] h-full flex flex-col gap-6 p-2">
                 <h2 className="text-xl text-center">{currentProject.name}</h2>
                 <div className="w-full h-full min-h-[250px] p-4 relative">
@@ -74,7 +101,7 @@ export default function Home() {
                 <div className="flex  gap-x-2 relative">
                   <div className="text-xl flex gap-3 truncate line-clamp-1  ">
                     {currentProject.stack.map((tech, index) => (
-                      <span key={index} className="opacity-40 	">
+                      <span key={index} className="opacity-40">
                         {tech}
                       </span>
                     ))}
