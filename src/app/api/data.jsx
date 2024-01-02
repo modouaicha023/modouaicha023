@@ -5,12 +5,13 @@ import techSurveyImage from "../../../public/images/tech-survey.png";
 import blogAppImage from "../../../public/images/blog-app.png";
 import jayyMaBaguetteImage from "../../../public/images/jayy-ma-baguette.png";
 import samaContactsImage from "../../../public/images/sama-contacts.png";
+import ticTacToeGame from "../../../public/images/tic-tac-toe.png";
 
 export const projects = [
   {
     name: "Galsen Coding Challenge",
     image: galsenCodingChallengeImage,
-    stack: ["Next.JS", "TypeScript", "MongoDB", "NextAuth"],
+    stack: ["Next.JS", "TypeScript", "MongoDB"],
     description:
       "This project aims to create a platform for coding challenges and collaboration within the Senegalese coding community. Users can participate in challenges, create their own, and engage in collaborative coding efforts.",
     url: "https://galsen-coding-challenge.vercel.app",
@@ -19,7 +20,7 @@ export const projects = [
   {
     name: "Sama Keur",
     image: samaKeurImage,
-    stack: ["React", "JavaScript", "MongoDB", "Express", "Firebase Storage"],
+    stack: ["React", "JavaScript", "MongoDB", "Express"],
     description:
       "SamaKeur is a user-friendly real estate platform where users can register using their email address or Google account. They have the ability to add, delete, and modify real estate rental or sale listings with ease. Find your dream home or a reliable tenant in the blink of an eye thanks to SamaKeur.",
     url: "https://sama-keur-sn.onrender.com",
@@ -64,10 +65,19 @@ export const projects = [
   {
     name: "Sama Contacts",
     image: samaContactsImage,
-    stack: ["PHP", "JavaScript", "MySQL"],
+    stack: ["PHP", "JavaScript", "MySQL", "ajax"],
     description:
       "The Contacts Management System is a web application that allows users to manage their contacts. It provides functionalities such as adding new contacts, editing existing ones, and categorizing contacts into different categories.",
     url: "https://sama-contacts.000webhostapp.com",
     githubUrl: "https://github.com/modouaicha023/sama-contacts",
+  },
+  {
+    name: "Tic-Tac-Toe Game",
+    image: ticTacToeGame,
+    stack: ["HTML", "CSS", "JavaScript"],
+    description:
+      "Implemented a classic Tic Tac Toe game featuring a two-player mode, local storage for game persistence, and a clean user interface.",
+    url: "https://github.com/modouaicha023/Tic-Tac-Toe-Game",
+    githubUrl: "https://github.com/modouaicha023/Tic-Tac-Toe-Game",
   },
 ];

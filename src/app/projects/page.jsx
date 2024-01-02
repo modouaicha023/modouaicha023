@@ -8,7 +8,7 @@ export default  function Projects() {
   return (
     <Container>
       <Section>
-        <div className=" flex  flex-wrap justify-evenly gap-4 mt-24">
+        <div className=" flex  flex-wrap justify-evenly gap-10 mt-24">
           {projects.map((projectItem, index) => (
             <ProjectItem key={index} project={projectItem} />
           ))}
