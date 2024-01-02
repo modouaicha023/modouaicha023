@@ -6,7 +6,11 @@ export default function Projects() {
   return (
     <Container>
       <Section>
-        <div className="flex items-center justify-center  ">In building...</div>
+        <div className="h-screen flex items-center">
+          <div className="flex items-center justify-center w-full text-base ">
+            In building...
+          </div>
+        </div>
       </Section>
     </Container>
   );
