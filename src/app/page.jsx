@@ -90,7 +90,7 @@ export default function Home() {
                 <div className="w-full h-full min-h-[250px] p-4 relative">
                   <Image
                     src={currentProject.image}
-                    className="rounded-md w-10/12 absolute border border-white border-opacity-10 object-cover shadow-lg"
+                    className=" w-10/12 absolute border border-white border-opacity-10 object-cover shadow-lg"
                     fill
                     alt="Project image"
                   />
