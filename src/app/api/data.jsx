@@ -77,7 +77,7 @@ export const projects = [
     stack: ["HTML", "CSS", "JavaScript"],
     description:
       "Implemented a classic Tic Tac Toe game featuring a two-player mode, local storage for game persistence, and a clean user interface.",
-    url: "https://github.com/modouaicha023/Tic-Tac-Toe-Game",
+    url: "https://modouaicha023.github.io/Tic-Tac-Toe-Game",
     githubUrl: "https://github.com/modouaicha023/Tic-Tac-Toe-Game",
   },
 ];
