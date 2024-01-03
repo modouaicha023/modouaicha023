@@ -50,7 +50,7 @@ export const projects = [
     stack: ["Java", "SQLite"],
     description:
       "A very simple mobile application that allows users to add blogs, view blog details, developed with Java and SQLite for the database.",
-    url: "#",
+    url: "https://github.com/modouaicha023/SimpleBlogApp",
     githubUrl: "https://github.com/modouaicha023/SimpleBlogApp",
   },
   {
