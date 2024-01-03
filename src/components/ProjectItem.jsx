@@ -29,10 +29,10 @@ export default  function ProjectItem({project}) {
             ))}
           </div>
           <div className="self-end flex gap-1 w-fit absolute right-0 -top-6 opacity-80">
-            <Link href={project?.githubUrl || "#"}>
+            <Link href={project?.githubUrl || "#"} target="_blank">
               <Github size={16} />
             </Link>
-            <Link href={project?.url || "#"}>
+            <Link href={project?.url || "#"} target="_blank">
               <ExternalLink size={16} />
             </Link>
           </div>
