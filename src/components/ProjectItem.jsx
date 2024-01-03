@@ -28,7 +28,7 @@ export default  function ProjectItem({project}) {
               </span>
             ))}
           </div>
-          <div className="self-end flex gap-1 w-fit absolute right-0 top-6 opacity-80">
+          <div className="self-end flex gap-1 w-fit absolute right-0 -top-6 opacity-80">
             <Link href={project?.githubUrl || "#"} target="_blank">
               <Github size={16} />
             </Link>
