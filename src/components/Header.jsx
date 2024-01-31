@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import logo from "../../public/images/Logo.png";
-import { MoreHorizontal, Linkedin, Github, Twitter } from "lucide-react";
+import { MoreHorizontal, Linkedin, Github, Twitter,FileText  } from "lucide-react";
 // import dynamic from "next/dynamic";
 import basketball from "../../public/images/ballBAsket.gif";
 import ThemeToggle from "./ui/utils/ThemeToggle";
@@ -27,6 +27,7 @@ export default function Header() {
           <Link href="https://github.com/modouaicha023"><Github size={16}/></Link>
           <Link href="https://www.linkedin.com/in/modouaicha023"><Linkedin size={16}/></Link>
           <Link href="https://twitter.com/modouaicha023"><Twitter size={16}/></Link>
+          <Link href="https://modouaicha023-cv.vercel.app/"><FileText  size={16}/></Link>
         </div>
       </div>
       <div className="flex items-center justify-center ">
