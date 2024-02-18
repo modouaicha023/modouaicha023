@@ -45,7 +45,7 @@ export default function Home() {
                     developer
                   </span>{" "}
                   currently immersed in crafting a personal project — an
-                  innovative management application.
+                  [animes x mangas] streaming platform.
                 </p>
                 <p>
                   My primary focus revolves around mastering{" "}
