@@ -8,15 +8,15 @@ import samaContactsImage from "../../../public/images/sama-contacts.png";
 import ticTacToeGame from "../../../public/images/tic-tac-toe.png";
 
 export const projects = [
-  {
-    name: "Galsen Coding Challenge",
-    image: galsenCodingChallengeImage,
-    stack: ["Next.JS", "TypeScript", "MongoDB"],
-    description:
-      "This project aims to create a platform for coding challenges and collaboration within the Senegalese coding community. Users can participate in challenges, create their own, and engage in collaborative coding efforts.",
-    url: "https://galsen-coding-challenge.vercel.app",
-    githubUrl: "https://github.com/modouaicha023/GalsenCodingChallenge",
-  },
+  // {
+  //   name: "Galsen Coding Challenge",
+  //   image: galsenCodingChallengeImage,
+  //   stack: ["Next.JS", "TypeScript", "MongoDB"],
+  //   description:
+  //     "This project aims to create a platform for coding challenges and collaboration within the Senegalese coding community. Users can participate in challenges, create their own, and engage in collaborative coding efforts.",
+  //   url: "https://galsen-coding-challenge.vercel.app",
+  //   githubUrl: "https://github.com/modouaicha023/GalsenCodingChallenge",
+  // },
   {
     name: "Sama Keur",
     image: samaKeurImage,
