@@ -37,43 +37,17 @@ export default function Home() {
               <h2 className="text-5xl text-center bkpgrid:text-left">
                 Modou&apos;s playground?
               </h2>
-              <div className="text-base rounded-md">
-                <p>
-                  {" "}
-                  I&apos;m a junior{" "}
-                  <span className="opacity-60 text-xl font-extrabold">
-                    developer
-                  </span>{" "}
-                  currently immersed in crafting a personal project — an
-                  [animes x mangas] streaming platform.
-                </p>
-                <p>
-                  My primary focus revolves around mastering{" "}
-                  <span className="opacity-60 text-xl font-extrabold p-1 hover:text-yellow-300 hover:opacity-100 hover:bg-black ">
-                    JavaScript
-                  </span>{" "}
-                  and its surrounding technologies.{" "}
-                </p>
-                <p>
-                  Aspiring to become a{" "}
-                  <span className="opacity-60 text-xl font-extrabold">
-                    software engineer
-                  </span>
-                  , I&apos;m passionate about beautiful user interfaces and
-                  curious about robust engineering{" "}
-                  <span className="opacity-60 text-xl font-extrabold">
-                    solutions
-                  </span>
-                  .
-                </p>
-                <p>
-                  Wishing to improve my skills, I enjoy{" "}
-                  <span className="opacity-60 text-xl font-extrabold">
-                    learning
-                  </span>{" "}
-                  from others and I am constantly looking for opportunities to
-                  elevate my abilities.
-                </p>
+              <div className="text-base text-justify rounded-md ">
+                {" "}
+                I&apos;m a software developer currently immersed in crafting a
+                personal project — an baker management app. <br />
+                My primary focus revolves around mastering JavaScript and its
+                surrounding technologies. <br />
+                Aspiring to become a software engineer , I&apos;m passionate
+                about beautiful user interfaces and curious about robust
+                engineering solutions . <br />
+                Wishing to improve my skills, I enjoy learning from others and I
+                am constantly looking for opportunities to elevate my abilities.
               </div>
             </div>
             <Link href={"/projects"}>
