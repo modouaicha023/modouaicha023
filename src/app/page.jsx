@@ -32,13 +32,12 @@ export default function Home() {
       <Section>
         <div
           className={`${josefinSlab.className} flex flex-col  bkpgrid:grid   bkpgrid:grid-rows-6 bkpgrid:grid-cols-10 bkpgrid:w-full bkpgrid:h-full  `}>
-          <div className="self-center my-20 bkpgrid:my-0  min-h-[330px]  bkpgrid:row-start-2 bkpgrid:row-end-5 bkpgrid:col-start-2 bkpgrid:col-end-5 rounded  min-w-[250px] max-w-sm bkpgrid:max-w-none  flex flex-col gap-4 p-2">
+          <div className="self-center my-20 bkpgrid:my-0  min-h-[330px]  bkpgrid:row-start-2 bkpgrid:row-end-5 bkpgrid:col-start-2 bkpgrid:col-end-5 rounded  min-w-[250px] px-10 bkpgrid:px-0  bkpgrid:max-w-none  flex flex-col gap-4 p-2 items-center">
             <div className=" min-w-[250px]  flex flex-col  gap-6 ">
               <h2 className="text-5xl text-center bkpgrid:text-left">
                 Modou&apos;s playground?
               </h2>
               <div className="text-base text-justify rounded-md ">
-                {" "}
                 I&apos;m a software developer currently immersed in crafting a
                 personal project — an baker management app. <br />
                 My primary focus revolves around mastering JavaScript and its
@@ -50,8 +49,10 @@ export default function Home() {
                 am constantly looking for opportunities to elevate my abilities.
               </div>
             </div>
-            <Link href={"/projects"}>
-              <button className="max-w-sm w-full text-xl font-extrabold text-center cursor-pointer group relative  px-8 py-4 bg-black text-[#f1f1f1] rounded-3xl hover:bg-opacity-90 hover:text-opacity-80  transition  shadow-md ">
+            <Link
+              href={"/projects"}
+              className="flex items-center justify-center">
+              <button className=" w-full text-xl font-extrabold text-center cursor-pointer group relative  px-8 py-4 bg-black text-[#f1f1f1] rounded-3xl hover:bg-opacity-90 hover:text-opacity-80  transition  shadow-md ">
                 See Projects
               </button>
             </Link>
