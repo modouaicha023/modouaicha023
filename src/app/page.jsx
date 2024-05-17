@@ -4,6 +4,7 @@ import Section from "@/components/ui/utils/Section";
 import Image from "next/image";
 import { Josefin_Slab } from "next/font/google";
 import { Github, ExternalLink } from "lucide-react";
+import seoConfig from "@/seo.config";
 
 import Link from "next/link";
 import { projects } from "./api/data";
@@ -14,6 +15,24 @@ const josefinSlab = Josefin_Slab({
   subsets: ["latin"],
   display: "swap",
 });
+
+ const metadata = {
+  title: "Home | Modou Aicha Diop Portfolio",
+  description:
+    "Welcome to the portfolio of Modou Aicha Diop, web developer in Dakar, Senegal.",
+  openGraph: {
+    ...seoConfig.openGraph,
+    title: "Home | Modou Aicha Diop Portfolio",
+    images: [
+      {
+        url: "/icon.png",
+        width: 800,
+        height: 600,
+        alt: "Og Image Alt",
+      },
+    ],
+  },
+};
 export default function Home() {
   const [currentProject, setCurrentProject] = useState(null);
 

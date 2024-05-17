@@ -1,6 +1,7 @@
 import "./globals.css";
 import { ThemeProvider } from "../components/ui/utils/ThemeProvider";
 import Header from "@/components/Header";
+import seoConfig from '@/seo.config'
 
 import { Josefin_Slab } from "next/font/google";
 
@@ -12,9 +13,14 @@ const josefinSlab = Josefin_Slab({
 });
 
 export const metadata = {
-  title: "Modou Aicha Diop",
-  description: "Modou Aicha Diop, Portfolio, Dakar, Senegal, Developer",
-};
+  title: seoConfig.title,
+  description: seoConfig.description,
+  icons: {
+    icon: '/favicon.ico',
+  },
+  openGraph: seoConfig.openGraph,
+  twitter: seoConfig.twitter,
+}
 
 export default function RootLayout({ children }) {
   return (
