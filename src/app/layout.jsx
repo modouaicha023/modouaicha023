@@ -20,6 +20,7 @@ export const metadata = {
   },
   openGraph: seoConfig.openGraph,
   twitter: seoConfig.twitter,
+  metadataBase: new URL('https://modouaicha023.vercel.app'), 
 }
 
 export default function RootLayout({ children }) {
