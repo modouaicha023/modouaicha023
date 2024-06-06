@@ -7,6 +7,7 @@ import { MoreHorizontal, Linkedin, Github, Twitter,FileText  } from "lucide-reac
 // import dynamic from "next/dynamic";
 import basketball from "../../public/images/ballBAsket.gif";
 import ThemeToggle from "./ui/utils/ThemeToggle";
+import LangSwitcher from "./LangSwitcher";
 
 // const ThemeToggle = dynamic(() => import("./ui/utils/ThemeToggle"), {
 //   ssr: false,
@@ -30,7 +31,8 @@ export default function Header() {
           <Link href="https://modouaicha023-cv.vercel.app/"><FileText  size={16}/></Link>
         </div>
       </div>
-      <div className="flex items-center justify-center ">
+      <div className="flex items-center justify-center">
+        <LangSwitcher/>
         <ThemeToggle />
         <MoreHorizontal size={48} className="cursor-not-allowed" />
       </div>

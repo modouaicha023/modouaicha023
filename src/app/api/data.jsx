@@ -5,18 +5,19 @@ import techSurveyImage from "../../../public/images/tech-survey.png";
 import blogAppImage from "../../../public/images/blog-app.png";
 import jayyMaBaguetteImage from "../../../public/images/jayy-ma-baguette.png";
 import samaContactsImage from "../../../public/images/sama-contacts.png";
+import samaCar from "../../../public/images/sama-car.png";
 import ticTacToeGame from "../../../public/images/tic-tac-toe.png";
 
 export const projects = [
-  // {
-  //   name: "Galsen Coding Challenge",
-  //   image: galsenCodingChallengeImage,
-  //   stack: ["Next.JS", "TypeScript", "MongoDB"],
-  //   description:
-  //     "This project aims to create a platform for coding challenges and collaboration within the Senegalese coding community. Users can participate in challenges, create their own, and engage in collaborative coding efforts.",
-  //   url: "https://galsen-coding-challenge.vercel.app",
-  //   githubUrl: "https://github.com/modouaicha023/GalsenCodingChallenge",
-  // },
+  {
+    name: "Galsen Coding Challenge",
+    image: galsenCodingChallengeImage,
+    stack: ["Next.JS", "TypeScript", "MongoDB"],
+    description:
+      "This project aims to create a platform for coding challenges and collaboration within the Senegalese coding community. Users can participate in challenges, create their own, and engage in collaborative coding efforts.",
+    url: "https://galsen-coding-challenge.vercel.app",
+    githubUrl: "https://github.com/modouaicha023/GalsenCodingChallenge",
+  },
   {
     name: "Sama Keur",
     image: samaKeurImage,
@@ -61,6 +62,15 @@ export const projects = [
       "JayyMaBaguette is a landing page for a baker. It has 7 sections: the header, the category section, the about us section, the menu section, the product presentation section, the contact form, and the footer.",
     url: "https://modouaicha023.github.io/jaaymabaguette",
     githubUrl: "https://github.com/modouaicha023/jaaymabaguette",
+  },
+  {
+    name: "Sama Car",
+    image: samaCar,
+    stack: ["React", "JavaScript", "Tailwind CSS"],
+    description:
+      "Sama Car is a landing page for a car business. It is a React application built with JavaScript and styled using Tailwind CSS. The landing page aims to showcase the car business and its offerings to potential customers in an engaging and visually appealing manner.",
+    url: "https://sama-car.vercel.app",
+    githubUrl: "https://github.com/modouaicha023/sama-car",
   },
   {
     name: "Sama Contacts",

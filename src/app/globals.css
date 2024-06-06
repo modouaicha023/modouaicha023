@@ -41,4 +41,13 @@ html.dark {
   /* Dark theme styles */
   background-color: #0F0F0F;
   color:  #fafafa ;
+
+}
+
+::-moz-selection {
+  color: rgb(255, 0, 0);
+}
+
+::selection {
+  color: rgb(240, 72, 72);
 }
