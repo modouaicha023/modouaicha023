@@ -9,6 +9,7 @@ import {
   Github,
   Twitter,
   FileText,
+  Youtube,
 } from "lucide-react";
 // import dynamic from "next/dynamic";
 import basketball from "../../public/images/ballBAsket.gif";
@@ -40,10 +41,16 @@ export default function Header() {
         </div>
         <div className="flex gap-1">
           <Link href="https://github.com/modouaicha023">
-            <Github size={16} />
+            <Github
+              size={16}
+              className="hover:scale-125 transition duration-200 cursor-pointer"
+            />
           </Link>
           <Link href="https://www.linkedin.com/in/modouaicha023">
             <Linkedin size={16} />
+          </Link>
+          <Link href="https://www.youtube.com/@modouaicha023">
+            <Youtube size={16} />
           </Link>
           <Link href="https://twitter.com/modouaicha023">
             <Twitter size={16} />

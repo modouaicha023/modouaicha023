@@ -36,7 +36,7 @@ export default function HeroSection() {
             <h2 className="text-5xl text-center bkpgrid:text-left">
               modou&apos;s playground?
             </h2>
-            <div className="text-2xl  rounded-md ">
+            <div className="text-2xl text-center bkpgrid:text-justify  rounded-md ">
               Software Developer passionate about beautiful UI and robust
               engineering solutions.
             </div>
