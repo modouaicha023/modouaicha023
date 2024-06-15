@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://modouaicha023.vercel.app
+
+# Sitemaps
+Sitemap: https://modouaicha023.vercel.app/sitemap.xml

@@ -13,10 +13,12 @@ const nextConfig = {
                         key: 'Cache-Control',
                         value: 'public, max-age=31536000, immutable',
                     },
-                    // Ajoutez d'autres en-têtes si nécessaire
                 ],
             },
         ];
+    },
+    env: {
+        NEXT_PUBLIC_GOOGLE_ANALYTICS_ID: process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID,
     },
 }
 
