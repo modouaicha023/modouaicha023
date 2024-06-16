@@ -22,7 +22,7 @@
   box-sizing: border-box;
   scroll-behavior: smooth;
   scrollbar-width: none;
-  text-transform:lowercase;
+  text-transform: lowercase;
 }
 
 body {
@@ -33,15 +33,14 @@ body {
 }
 html.light {
   /* Light theme styles */
-  background-color: #fafafa ;
+  background-color: #fafafa;
   color: rgb(0, 0, 0);
 }
 
 html.dark {
   /* Dark theme styles */
-  background-color: #0F0F0F;
-  color:  #fafafa ;
-
+  background-color: #0f0f0f;
+  color: #fafafa;
 }
 
 ::-moz-selection {
@@ -50,4 +49,35 @@ html.dark {
 
 ::selection {
   color: rgb(240, 72, 72);
+}
+
+@keyframes bounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-5px);
+  }
+  60% {
+    transform: translateY(-3px);
+  }
+}
+
+.hover\:animate-bounce-1:hover circle:nth-child(1) {
+  animation: bounce 0.6s ease-in-out 1s;
+  animation-delay: 0.3s;
+}
+
+.hover\:animate-bounce-2:hover circle:nth-child(2) {
+  animation: bounce 0.6s ease-in-out 1s;
+  animation-delay: 0.2s;
+}
+
+.hover\:animate-bounce-3:hover circle:nth-child(3) {
+  animation: bounce 0.6s ease-in-out 1s;
+  animation-delay: 0.1s;
 }
