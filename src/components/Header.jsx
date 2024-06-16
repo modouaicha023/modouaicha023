@@ -43,7 +43,7 @@ export default function Header() {
               alt="Ball"
             />
           </div>
-          <span className="hover:scale-125 transition duration-200 cursor-pointer">
+          <span className="hover:scale-125 transition duration-200">
             23
           </span>
         </div>
@@ -52,10 +52,7 @@ export default function Header() {
             href="https://github.com/modouaicha023"
             className="hover:scale-125 transition duration-200 cursor-pointer"
           >
-            <Github
-              size={16}
-              className="hover:scale-125 transition duration-200 cursor-pointer"
-            />
+            <Github size={16} />
           </Link>
           <Link
             href="https://www.linkedin.com/in/modouaicha023"
@@ -87,7 +84,6 @@ export default function Header() {
         <LangSwitcher />
         <ThemeToggle />
         <button>
-          
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="40"
@@ -104,7 +100,6 @@ export default function Header() {
             <circle cx="19" cy="12" r="1" />
             <circle cx="5" cy="12" r="1" />
           </svg>
-          
         </button>
       </div>
       {/* {isMenuOpen && (
