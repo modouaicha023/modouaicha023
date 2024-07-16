@@ -66,11 +66,20 @@ export const projects = [
   {
     name: "Sama Car",
     image: samaCar,
-    stack: ["React", "JavaScript", "Tailwind CSS"],
+    stack: ["React", "Tailwind CSS"],
     description:
-      "Sama Car is a landing page for a car business. It is a React application built with JavaScript and styled using Tailwind CSS. The landing page aims to showcase the car business and its offerings to potential customers in an engaging and visually appealing manner.",
+      "Sama Car is a landing page for a car business. It is a React application, styled using Tailwind CSS. The landing page aims to showcase the car business and its offerings to potential customers in an engaging and visually appealing manner.",
     url: "https://sama-car.vercel.app",
     githubUrl: "https://github.com/modouaicha023/sama-car",
+  },
+  {
+    name: "Sen Coffee",
+    image: samaCar,
+    stack: ["React", "Tailwind CSS"],
+    description:
+      "Sen Coffee is a homepage for a coffee shop. It is a React application styled with Tailwind CSS. The purpose of this homepage is to present the coffee business and its products in an attractive and visually appealing way to potential customers.",
+    url: "https://sen-coffee.netlify.app/",
+    githubUrl: "https://github.com/modouaicha023/sen-coffee",
   },
   {
     name: "Sama Contacts",
@@ -78,7 +87,7 @@ export const projects = [
     stack: ["PHP", "JavaScript", "MySQL", "ajax"],
     description:
       "The Contacts Management System is a web application that allows users to manage their contacts. It provides functionalities such as adding new contacts, editing existing ones, and categorizing contacts into different categories.",
-    url: "https://sama-contacts.000webhostapp.com",
+    url: "https://github.com/modouaicha023/sama-contacts",
     githubUrl: "https://github.com/modouaicha023/sama-contacts",
   },
   {

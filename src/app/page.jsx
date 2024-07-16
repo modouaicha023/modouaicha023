@@ -2,6 +2,7 @@
 import Container from "@/components/ui/utils/Container";
 import seoConfig from "@/seo.config";
 import HeroSection from "@/components/HeroSection";
+import ProjectSection from "@/components/ProjectSection";
 
 const metadata = {
   title: "Home | Modou Aicha Diop Portfolio",
@@ -25,6 +26,7 @@ export default function Home() {
     <Container>
       <div className="flex flex-col items-center justify-center gap-10">
         <HeroSection />
+        <ProjectSection />
       </div>
     </Container>
   );
