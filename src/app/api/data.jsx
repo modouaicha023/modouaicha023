@@ -6,6 +6,7 @@ import blogAppImage from "../../../public/images/blog-app.png";
 import jayyMaBaguetteImage from "../../../public/images/jayy-ma-baguette.png";
 import samaContactsImage from "../../../public/images/sama-contacts.png";
 import samaCar from "../../../public/images/sama-car.png";
+import senCoffee from "../../../public/images/sen-coffee.png";
 import ticTacToeGame from "../../../public/images/tic-tac-toe.png";
 
 export const projects = [
@@ -74,7 +75,7 @@ export const projects = [
   },
   {
     name: "Sen Coffee",
-    image: samaCar,
+    image: senCoffee,
     stack: ["React", "Tailwind CSS"],
     description:
       "Sen Coffee is a homepage for a coffee shop. It is a React application styled with Tailwind CSS. The purpose of this homepage is to present the coffee business and its products in an attractive and visually appealing way to potential customers.",
