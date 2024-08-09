@@ -37,15 +37,16 @@ export default function HeroSection() {
               modou&apos;s playground?
             </h2>
             <div className="text-2xl text-center bkpgrid:text-justify  rounded-md ">
-              Software Developer passionate about beautiful UI and robust
-              engineering solutions.
+              software developer, problem solver and manga addict. really
+              passionate about create content ( i'm gonna start soon, or
+              maybe...🤞🏾🙃)
             </div>
           </div>
-          <Link href={"/projects"} className="flex items-center justify-center">
+          {/* <Link href={"/projects"} className="flex items-center justify-center">
             <button className=" w-full text-xl font-extrabold text-center cursor-pointer group relative  px-8 py-4 bg-black text-[#f1f1f1] rounded-3xl hover:bg-opacity-90 hover:text-opacity-80  transition  shadow-md ">
-              See Projects
+              Projects
             </button>
-          </Link>
+          </Link> */}
         </div>
 
         {currentProject && (
