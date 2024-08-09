@@ -1,19 +1,12 @@
-# <img height="60" width="60" src="./public/images/ezgif.com-optimize.gif" /> Creative Idea and Cool Stuff
+# <img height="60" width="60" src="./public/images/ezgif.com-optimize.gif" /> modouaicha🏀23
 
 <div align="center">
   
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Major+Mono+Display&weight=800&size=30&duration=3500&pause=3000&color=FA7070&background=3574FF00&center=true&vCenter=true&width=435&lines=Hi+There+👋🏾)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Major+Mono+Display&weight=800&size=30&duration=3500&pause=3000&color=FA7070&background=3574FF00&center=true&vCenter=true&width=435&lines=nakamou?+lepp+cool)](https://git.io/typing-svg)
 
-  <img  src="./public/images/mojinwoo.png" width="400"/>
 </div>
-<h3>
-Hi there !  I'm a passionate  Developer 
-  <img width="30" style="border-radius: 15px;"  src="./public/images/lineman.gif" />
- with a keen eye for beautiful user interfaces. While I primarily specialize in creating stunning frontend experiences 
-   <img width="20" style="border-radius: 15px;"  src="./public/images/dinolove.gif" />
-   , I've also been on an exciting journey to learn backend technologies
-    <!-- <img width="30" style="border-radius: 15px;"  src="./public/images/coffee.gif" />
-    for backend development.🌟 -->
+<h3 style="text-align:justify">
+software developer, problem solver and manga addict, always building software to solve problem. really passionate about create content ( i'm gonna start soon, or maybe...🤞🏾🙃)
 </h3>
 
 <h2> ⚡ tech stack i use the most</h2>
