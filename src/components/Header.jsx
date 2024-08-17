@@ -37,13 +37,11 @@ export default function Header() {
           <div className="relative w-12 h-12">
             <Image
               src={basketball}
-              layout="fill"
-              objectFit="contain"
-              objectPosition="center"
-              alt="Ball"
+              fill
+              alt="basketball"
             />
           </div>
-          <span className="hover:scale-125 transition duration-200">
+          <span className="hover:scale-125 transition duration-200 text-[#f04848] ">
             23
           </span>
         </div>

@@ -33,14 +33,14 @@ body {
 }
 html.light {
   /* Light theme styles */
-  background-color: #fafafa;
-  color: rgb(0, 0, 0);
+  background-color: #eeeeec;
+  color: #111110;
 }
 
 html.dark {
   /* Dark theme styles */
-  background-color: #0f0f0f;
-  color: #fafafa;
+  background-color: #111110;
+  color: #eeeeec;
 }
 
 ::-moz-selection {
@@ -48,7 +48,7 @@ html.dark {
 }
 
 ::selection {
-  color: rgb(240, 72, 72);
+  color: #f04848;
 }
 
 @keyframes bounce {

@@ -1,8 +1,9 @@
 "use client";
 import Container from "@/components/ui/utils/Container";
 import seoConfig from "@/seo.config";
-import HeroSection from "@/components/HeroSection";
-import ProjectSection from "@/components/ProjectSection";
+import HeroSection from "@/components/sections/hero-section";
+import ProjectSection from "@/components/sections/project-section";
+import YoutubeSection from "@/components/sections/youtube-section";
 
 const metadata = {
   title: "Home | Modou Aicha Diop Portfolio",
@@ -24,8 +25,9 @@ const metadata = {
 export default function Home() {
   return (
     <Container>
-      <div className="flex flex-col items-center justify-center gap-10">
+      <div className="flex flex-col items-center justify-center gap-4">
         <HeroSection />
+        <YoutubeSection/>
         <ProjectSection />
       </div>
     </Container>
