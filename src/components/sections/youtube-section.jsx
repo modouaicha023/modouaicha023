@@ -1,8 +1,8 @@
-import React from "react";
+"use client";
 import Section from "@/components/ui/utils/Section";
 import { Josefin_Slab } from "next/font/google";
 import Link from "next/link";
-import { MoveRight } from "lucide-react";
+import { useEffect, useState } from "react";
 
 const josefinSlab = Josefin_Slab({
   weight: "700",
@@ -11,6 +11,16 @@ const josefinSlab = Josefin_Slab({
 });
 
 export default function YoutubeSection() {
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    // Check if the user is on a mobile device
+    setIsMobile(/iPhone|iPad|iPod|Android/i.test(navigator.userAgent));
+  }, []);
+
+  const youtubeLink = isMobile
+    ? "youtube://www.youtube.com/@modouaicha023"
+    : "https://www.youtube.com/@modouaicha023";
   return (
     <Section>
       <div className={`${josefinSlab.className} flex flex-col  `}>
@@ -32,7 +42,8 @@ export default function YoutubeSection() {
             allowFullScreen
           ></iframe>
           <Link
-            href={"youtube://www.youtube.com/@modouaicha023"}
+            href={youtubeLink}
+            target={isMobile ? "_parent" : "_blank"}
             className="flex items-center justify-center"
           >
             <button className="flex gap-2 items-center justify-center w-full text-xl font-extrabold text-center cursor-pointer group relative  px-8 py-4 bg-[#f04848] rounded-3xl hover:bg-opacity-90 hover:text-opacity-80  transition  shadow-md ">
