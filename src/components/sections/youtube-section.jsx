@@ -14,7 +14,6 @@ export default function YoutubeSection() {
   const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
-    // Check if the user is on a mobile device
     setIsMobile(/iPhone|iPad|iPod|Android/i.test(navigator.userAgent));
   }, []);
 
