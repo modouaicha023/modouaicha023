@@ -1,6 +1,8 @@
 import React from "react";
 import Section from "@/components/ui/utils/Section";
 import { Josefin_Slab } from "next/font/google";
+import Link from "next/link";
+import { MoveRight } from "lucide-react";
 
 const josefinSlab = Josefin_Slab({
   weight: "700",
@@ -29,6 +31,14 @@ export default function YoutubeSection() {
             referrerPolicy="strict-origin-when-cross-origin"
             allowFullScreen
           ></iframe>
+          <Link
+            href={"youtube://www.youtube.com/@modouaicha023"}
+            className="flex items-center justify-center"
+          >
+            <button className="flex gap-2 items-center justify-center w-full text-xl font-extrabold text-center cursor-pointer group relative  px-8 py-4 bg-[#f04848] rounded-3xl hover:bg-opacity-90 hover:text-opacity-80  transition  shadow-md ">
+              Ma chaine <span className="animate-pulse">✨🎥</span>
+            </button>
+          </Link>
         </div>
       </div>
     </Section>
