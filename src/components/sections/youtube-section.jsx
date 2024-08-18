@@ -20,10 +20,11 @@ export default function YoutubeSection() {
             </h2>
           </div>
           <iframe
-            className="w-full h-[600px]"
+            className="aspect-video"
+            width={"100%"}
+            height={"100%"}
             src="https://www.youtube.com/embed/XXZxTPRYjmk"
             title="Lets do some JavaScript quiz"
-            frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             referrerPolicy="strict-origin-when-cross-origin"
             allowFullScreen
