@@ -10,6 +10,7 @@ export default function ProjectItem({ project }) {
         <h2 className="text-xl text-center">{project?.name}</h2>
         <div className="w-full h-full min-h-[250px] p-4 relative">
           <Image
+            unoptimized={false}
             src={project?.image}
             className="absolute border border-white border-opacity-10 object-fill shadow-lg rounded-2xl"
             fill
