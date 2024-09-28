@@ -10,7 +10,7 @@ export default function ProjectSection() {
         <div className=" min-w-[250px]    flex flex-col  gap-6 ">
           <h2 className="text-3xl sm:text-5xl text-center ">Projects</h2>
         </div>
-        <div className=" flex  flex-wrap justify-evenly gap-10">
+        <div className=" flex  flex-wrap justify-evenly gap-4">
           {projects.map((projectItem, index) => (
             <ProjectItem key={index} project={projectItem} />
           ))}

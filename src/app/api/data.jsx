@@ -1,13 +1,14 @@
-import galsenCodingChallengeImage from "../../../public/images/gcc.png";
-import samaKeurImage from "../../../public/images/sama-keur.png";
-import gameOfLifeImage from "../../../public/images/game-of-life.png";
-import techSurveyImage from "../../../public/images/tech-survey.png";
-import blogAppImage from "../../../public/images/blog-app.png";
+import galsenCodingChallengeImage from "/public/images/gcc.png";
+import samaKeurImage from "/public/images/sama-keur.png";
+import gameOfLifeImage from "/public/images/game-of-life.png";
+import techSurveyImage from "/public/images/tech-survey.png";
+import blogAppImage from "/public/images/blog-app.png";
 import jayyMaBaguetteImage from "../../../public/images/jayy-ma-baguette.png";
-import samaContactsImage from "../../../public/images/sama-contacts.png";
-import samaCar from "../../../public/images/sama-car.png";
-import senCoffee from "../../../public/images/sen-coffee.png";
-import ticTacToeGame from "../../../public/images/tic-tac-toe.png";
+import samaContactsImage from "/public/images/sama-contacts.png";
+import samaCar from "/public/images/sama-car.png";
+import senCoffee from "/public/images/sen-coffee.png";
+import ticTacToeGame from "/public/images/tic-tac-toe.png";
+import galsenMangas from "/public/images/galsen-mangas.png";
 
 export const projects = [
   {
@@ -99,6 +100,15 @@ export const projects = [
       "Implemented a classic Tic Tac Toe game featuring a two-player mode, local storage for game persistence, and a clean user interface.",
     url: "https://modouaicha023.github.io/Tic-Tac-Toe-Game",
     githubUrl: "https://github.com/modouaicha023/Tic-Tac-Toe-Game",
+  },
+  {
+    name: "Galsen Mangas",
+    image: galsenMangas,
+    stack: ["Next.JS", "TypeScript"],
+    description:
+      "An app offering free access to anime, manga, and novels, packed with features for a seamless and enjoyable experience.",
+    url: "https://galsen-mangas.vercel.app",
+    githubUrl: "https://github.com/modouaicha023/galsen-mangas",
   },
 ];
 
