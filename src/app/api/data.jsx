@@ -9,8 +9,18 @@ import samaCar from "/public/images/sama-car.png";
 import senCoffee from "/public/images/sen-coffee.png";
 import ticTacToeGame from "/public/images/tic-tac-toe.png";
 import galsenMangas from "/public/images/galsen-mangas.png";
+import galsendigitalstudio from "/public/images/galsen-digital-studio.png";
 
 export const projects = [
+  {
+    name: "Galsen Digital Studio ",
+    image: galsendigitalstudio,
+    stack: ["Next.JS", "TypeScript", "Tailwind CSS"],
+    description:
+      "Galsen Digital Studio is a Next.js landing page styled with Tailwind CSS. It showcases the agency's expertise in development, marketing, and strategy, engaging potential clients with a visually appealing presentation of its services.",
+    url: "https://galsen-digital-studio.netlify.app/",
+    githubUrl: "https://github.com/modouaicha023/galsen-digital",
+  },
   {
     name: "Galsen Coding Challenge",
     image: galsenCodingChallengeImage,
