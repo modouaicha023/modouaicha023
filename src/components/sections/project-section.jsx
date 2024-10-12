@@ -1,6 +1,6 @@
 import React from "react";
 import { projects } from "@/app/api/data";
-import Section from "@/components/ui/utils/Section";
+import Section from "@/components/ui/Section";
 import ProjectItem from "../ProjectItem";
 
 export default function ProjectSection() {

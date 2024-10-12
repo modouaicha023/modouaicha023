@@ -13,10 +13,10 @@ import {
 } from "lucide-react";
 // import dynamic from "next/dynamic";
 import basketball from "../../public/images/ballBAsket.gif";
-import ThemeToggle from "./ui/utils/ThemeToggle";
+import ThemeToggle from "./ui/ThemeToggle";
 import LangSwitcher from "./LangSwitcher";
 
-// const ThemeToggle = dynamic(() => import("./ui/utils/ThemeToggle"), {
+// const ThemeToggle = dynamic(() => import("./ui/ThemeToggle"), {
 //   ssr: false,
 // });
 export default function Header() {
@@ -35,11 +35,7 @@ export default function Header() {
         <div className="font-extrabold text-center hidden sm:flex items-center justify-center min-w-[250px] text-3xl">
           <span>modouaicha</span>
           <div className="relative w-12 h-12">
-            <Image
-              src={basketball}
-              fill
-              alt="basketball"
-            />
+            <Image src={basketball} fill alt="basketball" />
           </div>
           <span className="hover:scale-125 transition duration-200 text-[#f04848] ">
             23

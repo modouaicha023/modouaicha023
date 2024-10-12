@@ -1,5 +1,5 @@
-import Container from "@/components/ui/utils/Container";
-import Section from "@/components/ui/utils/Section";
+import Container from "@/components/ui/Container";
+import Section from "@/components/ui/Section";
 import React from "react";
 import { projects } from "@/app/api/data";
 import ProjectItem from "@/components/ProjectItem";

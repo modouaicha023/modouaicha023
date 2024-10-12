@@ -1,4 +1,4 @@
-import Container from "@/components/ui/utils/Container";
+import Container from "@/components/ui/Container";
 
 export default function Blogs() {
   return (

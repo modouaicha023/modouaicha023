@@ -1,5 +1,5 @@
 "use client";
-import Section from "@/components/ui/utils/Section";
+import Section from "@/components/ui/Section";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 

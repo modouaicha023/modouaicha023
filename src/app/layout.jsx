@@ -1,11 +1,11 @@
 import "./globals.css";
-import { ThemeProvider } from "../components/ui/utils/ThemeProvider";
-import Header from "@/components/Header";
+import { ThemeProvider } from "../components/ui/ThemeProvider";
 import seoConfig from "@/seo.config";
 import { Josefin_Slab } from "next/font/google";
 import { WebVitals } from "./_components/web-vitals";
 import { Analytics } from "@vercel/analytics/react";
 import GoogleAnalytics from "@/components/GoogleAnalytics";
+import Header from "@/components/Header";
 const josefinSlab = Josefin_Slab({
   weight: "700",
   subsets: ["latin"],

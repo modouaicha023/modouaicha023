@@ -1,5 +1,5 @@
-import Container from "@/components/ui/utils/Container";
-import Section from "@/components/ui/utils/Section";
+import Container from "@/components/ui/Container";
+import Section from "@/components/ui/Section";
 
 export default function Loading() {
   return (
@@ -27,7 +27,6 @@ export default function Loading() {
               </div>
             </div>
           </div>
-
         </div>
       </Section>
     </Container>
