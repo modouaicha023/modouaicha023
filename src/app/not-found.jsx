@@ -5,7 +5,7 @@ export default function NotFound() {
     <div className="w-screen h-screen flex flex-col justify-center items-center text-center p-5">
       <h1 className="text-5xl font-bold mb-4">Oops! Lost in Space?</h1>
       <p className="text-xl mb-6">
-        The page you're looking for seems to have wandered off...
+        The page you&apos;re looking for seems to have wandered off...
       </p>
       <Link
         href="/"
