@@ -11,7 +11,7 @@ export default function HeroSection() {
               modou&apos;s playground?
             </h2>
             <div className="text-1xl sm:text-2xl text-center sm:max-w-[400px] rounded-md ">
-              Experienced{" "}
+              !Experienced{" "}
               <span className="text-[#f04848]">software developer</span>{" "}
               dedicated to solving business challenges with innovative
               solutions. Passionate about crafting{" "}
