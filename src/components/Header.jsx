@@ -32,7 +32,7 @@ export default function Header() {
         <Image src={logo} alt="avatar" height={40} />
       </Link>
       <div className="flex gap-2 justify-center items-center">
-        <div className="font-extrabold text-center hidden sm:flex items-center justify-center min-w-[250px] text-3xl">
+        <div className="font-extrabold text-center hidden sm:flex items-center justify-center sm:min-w-[250px] text-3xl">
           <span>modouaicha</span>
           <div className="relative w-12 h-12">
             <Image src={basketball} fill alt="basketball" />

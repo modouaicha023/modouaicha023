@@ -1,8 +1,8 @@
 import galsenCodingChallengeImage from "/public/images/gcc.png";
 import samaKeurImage from "/public/images/sama-keur.png";
 import gameOfLifeImage from "/public/images/game-of-life.png";
-import techSurveyImage from "/public/images/tech-survey.png";
-import blogAppImage from "/public/images/blog-app.png";
+// import techSurveyImage from "/public/images/tech-survey.png";
+// import blogAppImage from "/public/images/blog-app.png";
 import jayyMaBaguetteImage from "../../../public/images/jayy-ma-baguette.png";
 import samaContactsImage from "/public/images/sama-contacts.png";
 import samaCar from "/public/images/sama-car.png";
@@ -57,15 +57,15 @@ export const projects = [
   //   url: "https://tech-survey.vercel.app",
   //   githubUrl: "https://github.com/modouaicha023/tech-survey",
   // },
-  {
-    name: "Blog App",
-    image: blogAppImage,
-    stack: ["Java", "SQLite"],
-    description:
-      "A very simple mobile application that allows users to add blogs, view blog details, developed with Java and SQLite for the database.",
-    url: "https://www.youtube.com/watch?v=cIkB6uH3T_4",
-    githubUrl: "https://github.com/modouaicha023/SimpleBlogApp",
-  },
+  // {
+  //   name: "Blog App",
+  //   image: blogAppImage,
+  //   stack: ["Java", "SQLite"],
+  //   description:
+  //     "A very simple mobile application that allows users to add blogs, view blog details, developed with Java and SQLite for the database.",
+  //   url: "https://www.youtube.com/watch?v=cIkB6uH3T_4",
+  //   githubUrl: "https://github.com/modouaicha023/SimpleBlogApp",
+  // },
   {
     name: "Jayy Ma Baguette",
     image: jayyMaBaguetteImage,
@@ -159,15 +159,15 @@ export const blogs = [
   //   url: "https://tech-survey.vercel.app",
   //   githubUrl: "https://github.com/modouaicha023/tech-survey",
   // },
-  {
-    name: "Blog App",
-    image: blogAppImage,
-    stack: ["Java", "SQLite"],
-    description:
-      "A very simple mobile application that allows users to add blogs, view blog details, developed with Java and SQLite for the database.",
-    url: "https://www.youtube.com/watch?v=cIkB6uH3T_4",
-    githubUrl: "https://github.com/modouaicha023/SimpleBlogApp",
-  },
+  // {
+  //   name: "Blog App",
+  //   image: blogAppImage,
+  //   stack: ["Java", "SQLite"],
+  //   description:
+  //     "A very simple mobile application that allows users to add blogs, view blog details, developed with Java and SQLite for the database.",
+  //   url: "https://www.youtube.com/watch?v=cIkB6uH3T_4",
+  //   githubUrl: "https://github.com/modouaicha023/SimpleBlogApp",
+  // },
   {
     name: "Jayy Ma Baguette",
     image: jayyMaBaguetteImage,

@@ -4,6 +4,7 @@ import HeroSection from "@/components/sections/hero-section";
 import ProjectSection from "@/components/sections/project-section";
 import YoutubeSection from "@/components/sections/youtube-section";
 import Container from "../components/ui/Container";
+import { projects } from "@/app/api/data";
 
 const metadata = {
   title: "Home | Modou Aicha Diop Portfolio",
@@ -28,7 +29,7 @@ export default function Home() {
       <div className="flex flex-col items-center justify-center gap-4">
         <HeroSection />
         {/* <YoutubeSection /> */}
-        <ProjectSection />
+        <ProjectSection projects={projects} />
       </div>
     </Container>
   );

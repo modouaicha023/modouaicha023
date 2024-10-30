@@ -5,8 +5,8 @@ import { Github, ExternalLink } from "lucide-react";
 
 export default function ProjectItem({ project }) {
   return (
-    <div className="max-w-[450px] bkpgrid:row-start-2 bkpgrid:row-end-6 bkpgrid:col-start-6 bkpgrid:col-end-10 border border-white border-opacity-10 rounded-3xl min-w-[250px] flex flex-col gap-4 p-2 shadow-lg">
-      <div className="min-w-[250px] h-full flex flex-col gap-6 p-2">
+    <div className="w-full max-w-[450px] bkpgrid:row-start-2 bkpgrid:row-end-6 bkpgrid:col-start-6 bkpgrid:col-end-10 border border-white border-opacity-10 rounded-3xl  min-w-0 sm:min-w-[250px] flex flex-col gap-4 p-2 shadow-lg">
+      <div className="sm:min-w-[250px] h-full flex flex-col gap-6 p-2">
         <h2 className="text-xl text-center">{project?.name}</h2>
         <div className="w-full h-full min-h-[250px] p-4 relative">
           <Image
