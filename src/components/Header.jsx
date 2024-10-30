@@ -5,6 +5,7 @@ import React, { useState } from "react";
 import logo from "../../public/images/Logo.png";
 import {
   MoreHorizontal,
+  Instagram,
   Linkedin,
   Github,
   Twitter,
@@ -60,6 +61,7 @@ export default function Header() {
           >
             <Youtube size={16} />
           </Link>
+
           <Link
             href="https://twitter.com/modouaicha023"
             className="hover:scale-125 transition duration-200 cursor-pointer"
@@ -71,6 +73,12 @@ export default function Header() {
             className="hover:scale-125 transition duration-200 cursor-pointer"
           >
             <FileText size={16} />
+          </Link>
+          <Link
+            href="https://www.instagram.com/modouaicha023/"
+            className="hover:scale-125 transition duration-200 cursor-pointer"
+          >
+            <Instagram size={16} />
           </Link>
         </div>
       </div>

@@ -28,8 +28,8 @@ export default function Home() {
     <Container>
       <div className="flex flex-col items-center justify-center gap-4">
         <HeroSection />
-        {/* <YoutubeSection /> */}
         <ProjectSection projects={projects} />
+        <YoutubeSection />
       </div>
     </Container>
   );
