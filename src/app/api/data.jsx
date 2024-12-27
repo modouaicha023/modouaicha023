@@ -1,15 +1,7 @@
 import galsenCodingChallengeImage from "/public/images/gcc.png";
-import samaKeurImage from "/public/images/sama-keur.png";
 import gameOfLifeImage from "/public/images/game-of-life.png";
-// import techSurveyImage from "/public/images/tech-survey.png";
-// import blogAppImage from "/public/images/blog-app.png";
 import jayyMaBaguetteImage from "../../../public/images/jayy-ma-baguette.png";
-import samaContactsImage from "/public/images/sama-contacts.png";
-import samaCar from "/public/images/sama-car.png";
-import senCoffee from "/public/images/sen-coffee.png";
-import ticTacToeGame from "/public/images/tic-tac-toe.png";
 import galsenMangas from "/public/images/galsen-mangas.png";
-import galsendigitalstudio from "/public/images/galsen-digital-studio.png";
 
 export const projects = [
   {
