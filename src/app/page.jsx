@@ -1,10 +1,8 @@
-"use client";
 import seoConfig from "@/seo.config";
 import HeroSection from "@/components/sections/hero-section";
 import ProjectSection from "@/components/sections/project-section";
 import YoutubeSection from "@/components/sections/youtube-section";
 import Container from "../components/ui/Container";
-import { projects } from "@/app/api/data";
 
 const metadata = {
   title: "Home | Modou Aicha Diop Portfolio",
@@ -23,12 +21,14 @@ const metadata = {
     ],
   },
 };
-export default function Home() {
+export default async function Home() {
+  const res = await fetch("http://localhost:3000/api/projects");
+  const data = await res.json();
   return (
     <Container>
       <div className="flex flex-col items-center justify-center gap-4">
         <HeroSection />
-        <ProjectSection projects={projects} />
+        <ProjectSection projects={data.projects} />
         <YoutubeSection />
       </div>
     </Container>

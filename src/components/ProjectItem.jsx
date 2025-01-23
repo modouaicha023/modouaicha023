@@ -11,7 +11,7 @@ export default function ProjectItem({ project }) {
         <div className="w-full h-full min-h-[250px] p-4 relative">
           <Image
             unoptimized={true}
-            src={project?.image}
+            src={process.env.BASE_URL + project?.image}
             className="absolute border border-white border-opacity-10 object-fill shadow-lg rounded-2xl"
             fill
             sizes="(max-width: 450px) 100vw, 450px"

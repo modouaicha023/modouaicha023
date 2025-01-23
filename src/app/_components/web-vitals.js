@@ -5,7 +5,7 @@ import { useReportWebVitals } from 'next/web-vitals';
 
 export function WebVitals() {
   const handleMetric = (metric) => {
-    console.log(metric.name, metric);
+    // console.log(metric.name, metric);
 
     const body = JSON.stringify(metric);
     const url = '/api/analytics';

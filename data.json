@@ -1,0 +1,38 @@
+{
+  "projects": [
+    {
+      "name": "Jayy Ma Baguette",
+      "image": "/images/jayy-ma-baguette.png",
+      "stack": [
+        "HTML",
+        "CSS"
+      ],
+      "description": "JayyMaBaguette is a landing page for a baker. It has 7 sections: the header, the category section, the about us section, the menu section, the product presentation section, the contact form, and the footer.",
+      "url": "https://modouaicha023.github.io/jaaymabaguette",
+      "githubUrl": "https://github.com/modouaicha023/jaaymabaguette"
+    },
+    {
+      "name": "Game Of Life",
+      "image": "/images/game-of-life.png",
+      "stack": [
+        "JavaScript",
+        "HTML",
+        "CSS"
+      ],
+      "description": "This is a game called Game of life challenge. The Game of Life, also known simply as Life, is a cellular automaton devised by the British mathematician John Horton Conway in 1970.",
+      "url": "https://modouaicha023.github.io/GameOfLife",
+      "githubUrl": "https://github.com/modouaicha023/GameOfLife"
+    },
+    {
+      "name": "Galsen Mangas",
+      "image": "/images/galsen-mangas.png",
+      "stack": [
+        "Next.JS",
+        "TypeScript"
+      ],
+      "description": "An app offering free access to anime, manga, and novels, packed with features for a seamless and enjoyable experience.",
+      "url": "https://galsen-mangas.vercel.app",
+      "githubUrl": "https://github.com/modouaicha023/galsen-mangas"
+    }
+  ]
+}
