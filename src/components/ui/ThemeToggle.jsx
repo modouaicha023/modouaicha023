@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from "react";
-import { Moon, Sun, SunMoon } from "lucide-react";
+import { useState, useEffect } from "react";
+import { SunMoon } from "lucide-react";
 import { useTheme } from "next-themes";
 import classNames from "classnames";
 
@@ -22,13 +22,13 @@ function ThemeToggle() {
     >
       {isMounted && (
         <>
-          <SunMoon 
+          <SunMoon
             className={classNames("h-6 w-6 absolute transition-all", {
               "rotate-0 scale-100 text-black": theme === "light",
               "rotate-90 scale-0 text-white": theme === "dark",
             })}
           />
-          <SunMoon 
+          <SunMoon
             className={classNames("h-6 w-6 absolute transition-all", {
               "rotate-0 scale-100 text-white": theme === "dark",
               "rotate-90 scale-0 text-black": theme === "light",

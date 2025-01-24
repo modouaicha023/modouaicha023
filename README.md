@@ -15,16 +15,16 @@ software developer, problem solver and manga addict, always building software to
     <img src="https://skillicons.dev/icons?i=html,css" />
     <img width="50" style="border-radius: 15px;margin-left:5px;"   src="./public/images/ohh.png" />
     <img width="50" style="border-radius: 15px;margin-left:5px;"   src="./public/images/hein.png" />
-       <br/> 
+       <br/>
     <img src="https://techstack-generator.vercel.app/react-icon.svg" alt="icon" width="65" height="65" />
     <img src="https://skillicons.dev/icons?i=nextjs,nodejs,express" />
-      <br/> 
+      <br/>
     <!-- <img src="https://skillicons.dev/icons?i=bootstrap,tailwind,git" /> -->
     <!-- <img src="https://techstack-generator.vercel.app/github-icon.svg" alt="icon" width="65" height="65" /> -->
-       <br/> 
+       <br/>
     <img src="./public/images/myline.gif">  
 </p>
-     
+
 <p align="center">
 <img src="https://techstack-generator.vercel.app/js-icon.svg" alt="icon" width="65" height="65" />
   <img src="https://techstack-generator.vercel.app/ts-icon.svg" alt="icon" width="65" height="65" />
@@ -66,10 +66,7 @@ software developer, problem solver and manga addict, always building software to
 <p align="center">
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=modouaicha023&theme=react-dark&hide_border=true&hide_title=false&area=true&custom_title=Total%20contribution%20graph%20in%20all%20repo" width="80%"  alt="activity graph">
 
-
-
 </p>
-
 
 <p align="center">
 <img src="https://github-profile-trophy.vercel.app/?username=modouaicha023&theme=onestar&no-frame=true&column=3&row=2"width="80%"  alt=""/>
@@ -88,5 +85,3 @@ software developer, problem solver and manga addict, always building software to
 </div> -->
 <h2> See you soon👀😏👋🏾</h2>
 <img   src="./public/images/solosimile.jpg" />
-
-

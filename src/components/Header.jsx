@@ -12,21 +12,10 @@ import {
   FileText,
   Youtube,
 } from "lucide-react";
-// import dynamic from "next/dynamic";
 import basketball from "../../public/images/ballBAsket.gif";
 import ThemeToggle from "./ui/ThemeToggle";
-import LangSwitcher from "./LangSwitcher";
 
-// const ThemeToggle = dynamic(() => import("./ui/ThemeToggle"), {
-//   ssr: false,
-// });
 export default function Header() {
-  // const [isMenuOpen, SetIsMenuOpen] = useState(false);
-
-  // const handleOpenMenu = () => {
-  //   SetIsMenuOpen(!isMenuOpen);
-  //   console.log("it's work");
-  // };
   return (
     <header className="flex w-full max-w-7xl items-center justify-between p-8 fixed top-0 z-10 backdrop-blur-sm">
       <Link href="/">
@@ -83,7 +72,6 @@ export default function Header() {
         </div>
       </div>
       <div className="flex items-center justify-center">
-        <LangSwitcher />
         <ThemeToggle />
         <button>
           <svg
@@ -104,9 +92,6 @@ export default function Header() {
           </svg>
         </button>
       </div>
-      {/* {isMenuOpen && (
-        <div className="fixed top-20 right-0 w-full h-24 bg-slate-300 transition duration-75 delay-75 "></div>
-      )} */}
     </header>
   );
 }
