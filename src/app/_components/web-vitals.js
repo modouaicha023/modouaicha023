@@ -1,6 +1,5 @@
 'use client';
 
-import { useEffect } from 'react';
 import { useReportWebVitals } from 'next/web-vitals';
 
 export function WebVitals() {
