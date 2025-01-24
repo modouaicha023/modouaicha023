@@ -22,7 +22,7 @@ const metadata = {
   },
 };
 export default async function Home() {
-  const res = await fetch("http://localhost:3000/api/projects");
+  const res = await fetch("/api/projects");
   const data = await res.json();
   return (
     <Container>
