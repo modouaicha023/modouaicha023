@@ -1,0 +1,81 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+p {
+  text-wrap: pretty;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-wrap: balance;
+}
+
+#root,
+#__next {
+  isolation: isolate;
+}
+
+body {
+  background-color: #0a0903;
+  color: #eeebd3;
+  font-family: "Lexend Giga", serif;
+  font-optical-sizing: auto;
+  font-display: block;
+
+  font-weight: 100;
+  font-style: normal;
+  position: relative;
+}
+
+.basket-ball-img {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 48px;
+  height: 48px;
+}
+
+header {
+  padding-left: 50px;
+}
