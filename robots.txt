@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://modouaicha023.dev/sitemap.xml
