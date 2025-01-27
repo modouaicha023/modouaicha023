@@ -57,7 +57,7 @@ h6 {
 }
 
 body {
-  background-color: #0a0903;
+  background-color: hsl(51, 54%, 2.5%);
   color: #eeebd3;
   font-family: "Lexend Giga", serif;
   font-optical-sizing: auto;
@@ -66,6 +66,15 @@ body {
   font-weight: 100;
   font-style: normal;
   position: relative;
+  padding-left: 50px;
+}
+
+header {
+  padding-top: 5px;
+}
+
+p {
+  max-width: 800px;
 }
 
 .basket-ball-img {
@@ -75,14 +84,90 @@ body {
   width: 48px;
   height: 48px;
 }
+.logo {
+  position: absolute;
+  right: 48px;
+  top: 48px;
+  width: 48px;
+  height: 48px;
+}
 
-header {
-  padding-left: 50px;
-  padding-top: 5px;
+main {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+  justify-content: space-between;
+  column-gap: 50px;
+}
+a {
+  color: rgb(247, 184, 184);
+  font-weight: 200;
+}
+
+#projects {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#projects h2 {
+}
+
+.projects-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.project-card {
+}
+
+.project-card:hover {
+}
+
+.project-card img {
+}
+
+.project-card h3 {
+}
+
+.project-card p {
+}
+
+.stack {
+}
+
+.stack li {
+}
+
+.links {
+  display: flex;
+  gap: 5px;
+}
+
+.links a {
+  text-decoration: none;
+}
+
+.links a:hover {
+  text-decoration: underline;
+}
+
+#game-of-life {
+  text-decoration: underline;
+  font-weight: 300;
+  position: relative;
+  cursor: pointer;
+}
+
+#game-of-life:hover {
+  color: indianred;
+  text-decoration: none;
+  background: url("/public/images/GameofLife.gif") no-repeat center center;
 }
 
 @media (max-width: 768px) {
-    body {
-        font-size: 14px;
-    }
+  body {
+    font-size: 14px;
+  }
 }
