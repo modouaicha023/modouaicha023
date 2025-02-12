@@ -24,6 +24,8 @@ const metadata = {
 export default async function Home() {
   const res = await fetch(process.env.BASE_URL + "/api/projects");
   const data = await res.json();
+  console.log(data)
+
   return (
     <Container>
       <div className="flex flex-col items-center justify-center gap-4">
