@@ -100,7 +100,7 @@ main {
   column-gap: 50px;
 }
 a {
-  color: rgb(247, 184, 184);
+  color: #e94f37;
   font-weight: 200;
 }
 
@@ -161,7 +161,7 @@ a {
 }
 
 #game-of-life:hover {
-  color: indianred;
+  color: #e94f37;
   text-decoration: none;
   background: url("/public/images/GameofLife.gif") no-repeat center center;
 }
